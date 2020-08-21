@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  HashRouter,
+  HashRouter as Router,
   Switch,
   Route,
   Link
@@ -13,14 +13,16 @@ import "./App.css";
 function App() {
   return (
     <Container>
-      <HashRouter>
+      <Router>
         <Switch>
-          <Route path="/products" exact render={props => <Products />} ></Route>
+          <Route path="/products">
+            <Products />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
         </Switch>
-      </HashRouter>
+      </Router>
     </Container>
   );
 };
