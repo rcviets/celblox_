@@ -15,7 +15,7 @@ function App() {
     <Container>
       <Router>
         <Switch>
-          <Route path="/products">
+          <Route path="/products" exact render={props => <Products />} >
             <Products />
           </Route>
           <Route path="/">
