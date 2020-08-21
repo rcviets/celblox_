@@ -13,7 +13,7 @@ import "./App.css";
 function App() {
   return (
     <Container>
-      <HashRouter>
+      <Router>
         <Switch>
           <Route path="/products" exact render={props => <Products />} >
             <Products />
@@ -22,7 +22,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-      </HashRouter>
+      </Router>
     </Container>
   );
 };
