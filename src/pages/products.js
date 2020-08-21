@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Navigation from "../components/nav/index";
-import ProductHero from "../components/splashProduct";
+import ProductHero from "../components/splashProduct/index";
+import Footer from "../components/footer/index";
 
 class Products extends Component {
     render() {
@@ -13,6 +14,7 @@ class Products extends Component {
                         <ProductHero />
                     </Col>
                 </Row>
+                    <Footer />
             </Container>
         );
     };

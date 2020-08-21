@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Navigation from "../components/nav/index";
 import SplashHero from "../components/splashHero/index";
 import InfoCards from "../components/splashInfo/index";
+import Footer from "../components/footer/index";
 
 class Home extends Component {
     render() {
@@ -19,6 +20,7 @@ class Home extends Component {
                         <InfoCards />
                     </Col>
                 </Row>
+                <Footer />
             </Container>
         );
     }
