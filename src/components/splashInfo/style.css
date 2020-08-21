@@ -1,0 +1,57 @@
+.splash-info {
+    margin-top: -200px;
+}
+
+.card {
+    position: relative;
+    top: 150px;
+    padding: 20px;
+    margin: 10px;
+    height: 600px;
+    color: #451F55;
+    font-weight: bold;
+    background-color: #bebebe;
+    z-index: 2;
+}
+
+.card-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    background-color: #451F55;
+    box-shadow: 2px 2px #297373;
+    color: #E6E6E6;
+}
+
+.card-description-2 {
+    text-align: center;
+}
+
+.rounded-0 {  
+    position: relative;
+    background-color: #451F55;
+    border-color: #451F55;
+    box-shadow: 3px 3px #297373;
+    color: #E6E6E6;
+}
+
+.rounded-0:hover {
+    background-color: #297373;
+    border-color: #297373;
+    box-shadow: 3px 3px #451F55;
+    color: #E6E6E6;
+}
+
+.rounded-0:active{
+    background-color: #E6E6E6 !important;
+    border-color: #451F55 !important;
+    box-shadow: 3px 3px #297373 !important; 
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="splash-info"] {
+        margin-top: -150px;
+    }
+}

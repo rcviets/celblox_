@@ -1,0 +1,14 @@
+.splash-hero {
+    background-image: url(../../images/splashHero.png);
+    background-color: transparent;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="splash-hero"] {
+        background-image: url(../../images/heroSmall.png);
+    }
+}

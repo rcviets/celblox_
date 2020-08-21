@@ -1,0 +1,32 @@
+.brand-text{
+    color: #451F55;
+    margin-top: 35px;
+}
+
+.nav-links {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.nav-button {
+    background-color: #451F55;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="d-inline-block align-top"] {
+        width: 75%;
+        height: 75%;
+        margin-left: 55px;
+    }
+
+    [class*="nav-links"] {
+        text-align: center;
+    }
+
+    [class*="brand-text"] {
+        text-align: center;
+        padding-top: 3px;
+    }
+}
