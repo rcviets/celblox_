@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/celblox_/static/css/main.5f361e03.chunk.css",
+    "main.js": "/celblox_/static/js/main.0729dafc.chunk.js",
+    "main.js.map": "/celblox_/static/js/main.0729dafc.chunk.js.map",
+    "runtime-main.js": "/celblox_/static/js/runtime-main.eed86bcd.js",
+    "runtime-main.js.map": "/celblox_/static/js/runtime-main.eed86bcd.js.map",
+    "static/js/2.7565541d.chunk.js": "/celblox_/static/js/2.7565541d.chunk.js",
+    "static/js/2.7565541d.chunk.js.map": "/celblox_/static/js/2.7565541d.chunk.js.map",
+    "index.html": "/celblox_/index.html",
+    "precache-manifest.30dca4ec4c03ff9f665574cdcf0c1b3e.js": "/celblox_/precache-manifest.30dca4ec4c03ff9f665574cdcf0c1b3e.js",
+    "service-worker.js": "/celblox_/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/celblox_/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.7565541d.chunk.js.LICENSE.txt": "/celblox_/static/js/2.7565541d.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/celblox_/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eed86bcd.js",
+    "static/js/2.7565541d.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.0729dafc.chunk.js"
+  ]
+}
