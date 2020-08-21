@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/celblox_/static/css/main.e9eab694.chunk.css",
-    "main.js": "/celblox_/static/js/main.e1f55c2b.chunk.js",
-    "main.js.map": "/celblox_/static/js/main.e1f55c2b.chunk.js.map",
+    "main.js": "/celblox_/static/js/main.8304a2e0.chunk.js",
+    "main.js.map": "/celblox_/static/js/main.8304a2e0.chunk.js.map",
     "runtime-main.js": "/celblox_/static/js/runtime-main.eed86bcd.js",
     "runtime-main.js.map": "/celblox_/static/js/runtime-main.eed86bcd.js.map",
     "static/css/2.11829350.chunk.css": "/celblox_/static/css/2.11829350.chunk.css",
     "static/js/2.7a60f52e.chunk.js": "/celblox_/static/js/2.7a60f52e.chunk.js",
     "static/js/2.7a60f52e.chunk.js.map": "/celblox_/static/js/2.7a60f52e.chunk.js.map",
     "index.html": "/celblox_/index.html",
-    "precache-manifest.0e6b7063bb02e48e4d24a44eedd579a8.js": "/celblox_/precache-manifest.0e6b7063bb02e48e4d24a44eedd579a8.js",
+    "precache-manifest.7949d37f247256932b06a234f98f3b32.js": "/celblox_/precache-manifest.7949d37f247256932b06a234f98f3b32.js",
     "service-worker.js": "/celblox_/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/celblox_/static/css/2.11829350.chunk.css.map",
     "static/css/main.e9eab694.chunk.css.map": "/celblox_/static/css/main.e9eab694.chunk.css.map",
@@ -26,6 +26,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.7a60f52e.chunk.js",
     "static/css/main.e9eab694.chunk.css",
-    "static/js/main.e1f55c2b.chunk.js"
+    "static/js/main.8304a2e0.chunk.js"
   ]
 }
