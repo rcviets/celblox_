@@ -15,9 +15,7 @@ function App() {
     <Container>
       <HashRouter>
         <Switch>
-          <Route path="/products" exact render={props => <Products />} >
-            <Products />
-          </Route>
+          <Route path="/products" exact render={props => <Products />} ></Route>
           <Route path="/">
             <Home />
           </Route>
