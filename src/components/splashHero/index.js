@@ -6,8 +6,8 @@ import "./style.css"
 
 const SplashHero = () => {
   return (
-    <Container fluid>
-      <Jumbotron className="splash-hero" fluid />
+    <Container className="hero-container">
+      <Jumbotron className="splash-hero" />
       <Angle />
     </Container>
   );
