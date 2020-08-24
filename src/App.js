@@ -5,7 +5,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Container from "react-bootstrap/Container";
 import Home from "./pages/home";
 import Products from "./pages/products";
 import "./App.css";

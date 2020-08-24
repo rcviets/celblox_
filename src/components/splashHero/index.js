@@ -6,7 +6,15 @@ import "./style.css"
 const SplashHero = () => {
   return (
           <Jumbotron className="splash-hero" fluid>
-          <h1>Sustainable. Durable. Cost Effective.</h1>
+            <Container fluid>
+              <Row>
+              <Col md={4}></Col>
+                <Col md={5}>
+                  <h1>Sustainable. Durable. Cost Effective.</h1>
+                </Col>
+                <Col md={3}></Col>
+              </Row>
+            </Container>
           </Jumbotron>
   );
 };
