@@ -1,6 +1,6 @@
 /*Home Page*/
 .jumbotron {
     position: relative;
-    top: 70px;
     height: 400px;
+    max-width: 100%;
   }

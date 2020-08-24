@@ -11,18 +11,22 @@ class Home extends Component {
         return (
             <Container fluid>
                 <Row>
-                    <Col md={12}>
+                    <Col lg={12} md={12}>
                         <Navigation />
-                        <SplashHero className="jumbotron"/>
                     </Col>
                 </Row>
                 <Row>
-                    <Col md={12}>
+                    <Col xl={12} lg={12} md={12}>
+                        <SplashHero className="jumbotron" />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col lg={12} md={12}>
                         <InfoCards />
                     </Col>
                 </Row>
                 <Footer />
-            </Container>
+            </Container >
         );
     }
 };

@@ -1,8 +1,13 @@
-.splash-hero {
-    background-image: url(../../images/splashHero.png);
-    background-size: cover;
-    left: -150px;
-    width: 100%;
+.jumbotron {
+    background-image: url(../../images/heroSafe.png);
+
+}
+
+h1 {
+    position: relative;
+    top: -205px;
+    left: 200px;
+    text-shadow: 1px 2px #000000;
 }
 
 @media only screen and (max-width: 992px) {

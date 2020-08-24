@@ -5,9 +5,9 @@ import "./style.css"
 
 const SplashHero = () => {
   return (
-    <Container className="hero-container">
-          <Jumbotron className="splash-hero vw-100" />
-    </Container>
+          <Jumbotron className="splash-hero" fluid>
+          <h1>Sustainable. Durable. Cost Effective.</h1>
+          </Jumbotron>
   );
 };
 
