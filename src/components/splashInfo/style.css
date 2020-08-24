@@ -54,4 +54,7 @@
     [class*="splash-info"] {
         margin-top: -30px;
     }
+    [class*="card"] {
+        height: auto;
+    }
 }
