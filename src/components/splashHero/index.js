@@ -7,11 +7,10 @@ import "./style.css"
 const SplashHero = () => {
   return (
     <Container className="hero-container">
-      <Jumbotron className="splash-hero" />
-      <Angle />
+      <Jumbotron className="splash-hero vw-100" />
+      
     </Container>
   );
 };
-
 
 export default SplashHero;

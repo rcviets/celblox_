@@ -4,6 +4,7 @@ import Navigation from "../components/nav/index";
 import SplashHero from "../components/splashHero/index";
 import InfoCards from "../components/splashInfo/index";
 import Footer from "../components/footer/index";
+import "./style.css";
 
 class Home extends Component {
     render() {
@@ -12,7 +13,7 @@ class Home extends Component {
                 <Row>
                     <Col md={12}>
                         <Navigation />
-                        <SplashHero />
+                        <SplashHero className="jumbotron"/>
                     </Col>
                 </Row>
                 <Row>

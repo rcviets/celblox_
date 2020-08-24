@@ -6,7 +6,7 @@ import "./style.css";
 const Angle = () => {
     return (
         <div>
-            <Image className="wave-image" src={WaveLogo} fluid />
+            <Image className="wave-image vw-100" src={WaveLogo} fluid />
         </div>
     );
 };
