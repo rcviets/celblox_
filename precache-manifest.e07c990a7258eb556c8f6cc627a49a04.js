@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b95296d5e877a768364db1ba302b6259",
+    "revision": "87f5a6089a5dd63700707b8413c8bd2e",
     "url": "/celblox_/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/celblox_/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "4873ec10d7f33541e8e9",
-    "url": "/celblox_/static/css/main.57cfd404.chunk.css"
+    "revision": "7892c3db9f5620ca370a",
+    "url": "/celblox_/static/css/main.d8fd7ee6.chunk.css"
   },
   {
     "revision": "794820dc4eb064811078",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/celblox_/static/js/2.a7708411.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4873ec10d7f33541e8e9",
-    "url": "/celblox_/static/js/main.41cd94f4.chunk.js"
+    "revision": "7892c3db9f5620ca370a",
+    "url": "/celblox_/static/js/main.8d8658ad.chunk.js"
   },
   {
     "revision": "df35343b17e1f283ccd9",

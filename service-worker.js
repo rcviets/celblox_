@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/celblox_/precache-manifest.59488a75994a1e0a02b09f708715243b.js"
+  "/celblox_/precache-manifest.e07c990a7258eb556c8f6cc627a49a04.js"
 );
 
 self.addEventListener('message', (event) => {
