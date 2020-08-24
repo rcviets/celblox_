@@ -10,7 +10,7 @@ const InfoCards = () => {
         <Container className="splash-info">
             <Row>
                 <CardDeck>
-                    <Col md={4}>
+                    <Col lg={4}>
                         <Card className='pt-5'>
                             <Card.Img variant="top" src={require("../../images/contractorCard.svg")} />
                             <Card.Body>
@@ -31,7 +31,7 @@ const InfoCards = () => {
                             </Card.Footer>
                         </Card>
                     </Col>
-                    <Col md={4}>
+                    <Col lg={4}>
                         <Card className='pt-2'>
                             <Card.Img variant="top" src={require("../../images/customerCard1.svg")} />
                             <Card.Body>
@@ -51,7 +51,7 @@ const InfoCards = () => {
                             </Card.Footer>
                         </Card>
                     </Col>
-                    <Col md={4}>
+                    <Col lg={4}>
                         <Card className="pt-1">
                             <Card.Img variant="top" src={require("../../images/customerCard2.svg")} />
                             <Card.Body className="pt-3">
