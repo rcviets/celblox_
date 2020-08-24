@@ -10,23 +10,23 @@ class Home extends Component {
     render() {
         return (
             <Container fluid>
-                <Row>
-                    <Col lg={12} md={12}>
-                        <Navigation />
-                    </Col>
-                </Row>
-                <Row>
+                    <Row>
+                        <Col lg={12} md={12}>
+                            <Navigation />
+                        </Col>
+                    </Row>
+                    <Row>
                     <Col xl={12} lg={12} md={12}>
-                        <SplashHero className="jumbotron" />
-                    </Col>
-                </Row>
-                <Row>
+                            <SplashHero className="jumbotron" />
+                        </Col>
+                    </Row>
+                    <Row>
                     <Col lg={12} md={12}>
-                        <InfoCards />
-                    </Col>
-                </Row>
+                            <InfoCards />
+                        </Col>
+                    </Row>
                 <Footer />
-            </Container >
+            </Container>
         );
     }
 };

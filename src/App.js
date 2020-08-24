@@ -12,7 +12,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Container>
+    <>
       <Router>
         <Switch>
           <Route path="/products">
@@ -23,7 +23,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </Container>
+    </>
   );
 };
 
