@@ -9,12 +9,16 @@ class Products extends Component {
         return (
             <Container fluid>
                 <Row>
-                    <Col md={12}>
+                <Col lg={12} md={12}>
                         <Navigation />
+                    </Col>
+                    </Row>
+                    <Row>
+                    <Col xl={12} lg={12} md={12}>
                         <ProductHero />
                     </Col>
                 </Row>
-                    <Footer />
+                <Footer />
             </Container>
         );
     };

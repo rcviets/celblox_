@@ -1,6 +1,9 @@
-.products-jumbotron {
-    padding-right: 20px;
-    padding-left: 20px;
+.products-container {
+    margin-top: 70px;
+}
+
+.products-hero {
+    padding: 40px 50px 10px 50px;
 }
 
 .products-headline {
@@ -8,4 +11,14 @@
 }
 .line-break-one {
     border: 1px solid #297373;
+}
+
+@media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    [class*="products-hero"] {
+        margin-top: 50px;
+        height: fit-content;
+        padding-top: 5px;
+        text-align: center;
+    }
 }

@@ -1,9 +1,9 @@
-.jumbotron {
+.splash-hero {
     background-image: url(../../images/heroSafe.png);
 
 }
 
-h1 {
+.splash-hero-header {
     position: relative;
     text-align: center;
     top: 125px;

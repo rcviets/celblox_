@@ -6,18 +6,22 @@ import "./style.css";
 
 const ProductHero = () => {
     return (
-        <Container fluid>
-            <Jumbotron className="products-jumbotron" fluid>
+        <Container className="products-container" fluid>
+                <Row>
+                    <Col md={12}>
+            <Jumbotron className="products-hero" fluid>
                 <Row>
                     <Col md={9}>
-                        <h1 className="products-headline">Block Dimensions</h1>
+                        <h1 className="products-headline">Dimensions</h1>
                     </Col>
                     <Col md={3}>
-                        <Button className="rounded-0" size="lg" block>Request A Quote</Button>
+                        <Button className="rounded-0"  block>Request A Quote</Button>
                     </Col>
-                </Row>
-                <hr className="line-break-one"></hr>
+                    </Row>
+            <hr className="line-break-one"></hr>
             </Jumbotron>
+            </Col>
+                    </Row>
         </Container>
     );
 };

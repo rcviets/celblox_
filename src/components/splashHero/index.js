@@ -10,7 +10,7 @@ const SplashHero = () => {
               <Row>
               <Col md={4}></Col>
                 <Col md={5}>
-                  <h1>Sustainable. Durable. Cost Effective.</h1>
+                  <h1 className="splash-hero-header">Sustainable. Durable. Cost Effective.</h1>
                 </Col>
                 <Col md={3}></Col>
               </Row>
