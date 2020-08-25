@@ -6,10 +6,10 @@ import "./style.css";
 
 const ProductHero = () => {
     return (
-        <Container className="products-container" fluid>
+        <Container className="products-container">
                 <Row>
                     <Col md={12}>
-            <Jumbotron className="products-hero" fluid>
+            <Jumbotron className="products-hero">
                 <Row>
                     <Col md={9}>
                         <h1 className="products-headline">Dimensions</h1>
