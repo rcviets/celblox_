@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/home";
 import Products from "./pages/products";
+import Resources from "./pages/resources"
 import "./App.css";
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
         <Switch>
           <Route path="/products">
             <Products />
+          </Route>
+          <Route path="/resources">
+            <Resources />
           </Route>
           <Route path="/">
             <Home />

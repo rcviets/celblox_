@@ -33,7 +33,7 @@ const Navigation = () => {
             <Nav.Link eventKey={2} style={{ color: "#451F55" }} className="nav-links" href="https://rcviets.github.io/celblox_/#/products">
               Products
           </Nav.Link>
-            <Nav.Link eventKey={2} style={{ color: "#451F55" }} className="nav-links" href="#memes">
+            <Nav.Link eventKey={2} style={{ color: "#451F55" }} className="nav-links" href="https://rcviets.github.io/celblox_/#/resources">
               Resources
           </Nav.Link>
           </Nav>

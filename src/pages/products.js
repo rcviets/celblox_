@@ -7,19 +7,21 @@ import Footer from "../components/footer/index";
 class Products extends Component {
     render() {
         return (
+            <>
             <Container fluid>
                 <Row>
-                <Col lg={12} md={12}>
+                    <Col lg={12} md={12}>
                         <Navigation />
                     </Col>
-                    </Row>
-                    <Row>
+                </Row>
+                <Row>
                     <Col xl={12} lg={12} md={12}>
                         <ProductHero />
                     </Col>
                 </Row>
-                <Footer />
             </Container>
+                <Footer />
+            </>
         );
     };
 };

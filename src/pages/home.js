@@ -9,6 +9,7 @@ import "./style.css";
 class Home extends Component {
     render() {
         return (
+            <>
             <Container fluid>
                     <Row>
                         <Col lg={12} md={12}>
@@ -25,8 +26,9 @@ class Home extends Component {
                             <InfoCards />
                         </Col>
                     </Row>
-                <Footer />
             </Container>
+                <Footer />
+            </>
         );
     }
 };
