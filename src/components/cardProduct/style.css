@@ -1,11 +1,19 @@
-.product-card-deck {
-    margin-bottom: 10px;
-}
-
 .product-card-container {
     padding-bottom: 100px;
 }
 
+.product-card-deck {
+    margin-bottom: 20px;
+}
+
+.product-card-body {
+    background-color: #e9ecef;
+}
+
 .product-card-info {
     height: fit-content;
+}
+
+.product-image {
+    float: left;
 }

@@ -1,6 +1,7 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from "react-bootstrap/Image";
+import Card from "react-bootstrap/Card";
 import "./style.css";
 
 const ProductCard = () => {
@@ -9,42 +10,60 @@ const ProductCard = () => {
             <Row className="product-card-deck">
                 <Col md={12}>
                     <Card className="product-card-body">
-                        <Card.Body className="product-card-info">This is some text within a card body.</Card.Body>
+                        <Card.Body className="product-card-info">
+                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
+                                This is some text within a card body.
+                        </Card.Body>
                     </Card>
                 </Col>
             </Row>
             <Row className="product-card-deck">
                 <Col md={12}>
-                    <Card>
-                        <Card.Body className="product-card-info">This is some text within a card body.</Card.Body>
+                    <Card className="product-card-body">
+                        <Card.Body className="product-card-info">
+                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
+                                This is some text within a card body.
+                        </Card.Body>
                     </Card>
                 </Col>
             </Row>
             <Row className="product-card-deck">
                 <Col md={12}>
-                    <Card>
-                        <Card.Body className="product-card-info">This is some text within a card body.</Card.Body>
+                    <Card className="product-card-body">
+                        <Card.Body className="product-card-info">
+                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
+                                This is some text within a card body.
+                        </Card.Body>
                     </Card>
                 </Col>
             </Row>
             <Row className="product-card-deck">
                 <Col md={12}>
-                    <Card>
-                        <Card.Body className="product-card-info">This is some text within a card body.</Card.Body>
+                    <Card className="product-card-body">
+                        <Card.Body className="product-card-info">
+                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
+                                This is some text within a card body.
+                        </Card.Body>
                     </Card>
                 </Col>
             </Row>
             <Row className="product-card-deck">
                 <Col md={12}>
-                    <Card>
-                        <Card.Body className="product-card-info">This is some text within a card body.</Card.Body>
+                    <Card className="product-card-body">
+                        <Card.Body className="product-card-info">
+                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
+                                This is some text within a card body.
+                        </Card.Body>
                     </Card>
                 </Col>
             </Row>
             <Row className="product-card-deck">
                 <Col md={12}>
-                    <Card>
-                        <Card.Body className="product-card-info">This is some text within a card body.</Card.Body>
+                    <Card className="product-card-body">
+                        <Card.Body className="product-card-info">
+                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
+                                This is some text within a card body.
+                        </Card.Body>
                     </Card>
                 </Col>
             </Row>
