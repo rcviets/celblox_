@@ -1,3 +1,11 @@
-.product-card {
+.product-card-deck {
+    margin-bottom: 10px;
+}
+
+.product-card-container {
+    padding-bottom: 100px;
+}
+
+.product-card-info {
     height: fit-content;
 }
