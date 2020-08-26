@@ -19,6 +19,7 @@ const ProductHero = () => {
                     </Col>
                     </Row>
             <hr className="line-break-one"></hr>
+            <p className="all-product-description">All Blocks come with 4", 6", 8", 10", or 12" Cores</p>
             </Jumbotron>
             </Col>
                     </Row>

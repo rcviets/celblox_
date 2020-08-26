@@ -4,6 +4,7 @@
 
 .products-hero {
     padding: 40px 20px 10px 20px;
+    height: fit-content;
 }
 
 .products-headline {
@@ -11,6 +12,10 @@
 }
 .line-break-one {
     border: 1px solid #297373;
+}
+
+.all-product-description {
+    text-align: center;
 }
 
 @media only screen and (max-width: 992px) {

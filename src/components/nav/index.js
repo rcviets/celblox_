@@ -2,10 +2,6 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  useRouteMatch
 } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import "./style.css";
