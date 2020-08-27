@@ -11,11 +11,6 @@ class Home extends Component {
         return (
             <>
                     <Row>
-                        <Col lg={12} md={12}>
-                            <Navigation />
-                        </Col>
-                    </Row>
-                    <Row>
                     <Col xl={12} lg={12} md={12}>
                             <SplashHero className="jumbotron" />
                         </Col>
@@ -25,7 +20,6 @@ class Home extends Component {
                             <InfoCards />
                         </Col>
                     </Row>
-                <Footer />
             </>
         );
     }

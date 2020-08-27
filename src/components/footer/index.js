@@ -6,7 +6,7 @@ import "./style.css";
 const Footer = () => {
     return (
         <Container className="footer" fluid>
-            <p>Celblox</p>
+            <p className="footer-text">Celblox</p>
         </Container>
     );
 };

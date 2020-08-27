@@ -5,14 +5,18 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { Row, Col } from "react-bootstrap";
+import Navigation from "./components/nav";
 import Home from "./pages/home";
 import Products from "./pages/products";
-import Resources from "./pages/resources"
+import Resources from "./pages/resources";
+import Footer from "./components/footer";
 import "./App.css";
 
 function App() {
   return (
     <>
+    <Navigation />
       <Router>
         <Switch>
           <Route path="/products">
@@ -26,6 +30,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
+      <Footer />
     </>
   );
 };
