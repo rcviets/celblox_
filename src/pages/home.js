@@ -10,7 +10,6 @@ class Home extends Component {
     render() {
         return (
             <>
-            <Container fluid>
                     <Row>
                         <Col lg={12} md={12}>
                             <Navigation />
@@ -26,7 +25,6 @@ class Home extends Component {
                             <InfoCards />
                         </Col>
                     </Row>
-            </Container>
                 <Footer />
             </>
         );
