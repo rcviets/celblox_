@@ -1,8 +1,9 @@
 .splash-hero {
     background-image: url(../../images/splashHero.png);
+    height: fit-content;
     background-size: cover;
     background-repeat: no-repeat repeat;
-    margin-top: 85px;
+    margin-top: 125px;
 }
  
 .splash-hero-header {
