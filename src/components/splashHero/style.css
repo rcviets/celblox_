@@ -8,9 +8,10 @@
 .splash-hero-header {
     position: relative;
     text-align: center;
-    top: 125px;
-    background-color: #e6e6e6;
-    text-shadow: 1px 2px #297373;
+    top: 100px;
+    font-size: 50px;
+    color: #451F55;
+    text-shadow: 1px 2px #000000;
     display: inline;
 }
 
