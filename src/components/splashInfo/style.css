@@ -15,6 +15,7 @@
     color: #451F55;
     font-weight: bold;
     background-color: #F8F9FA;
+    border-color: #F8F9FA;
     z-index: 2;
 }
 
@@ -23,8 +24,8 @@
     font-weight: bold;
     text-align: center;
     padding: 2px;
-    background-color: #451F55;
-    box-shadow: 2px 2px #297373;
+    background-color: #297373;
+    box-shadow: 2px 2px #451F55;
     color: #E6E6E6;
 }
 
