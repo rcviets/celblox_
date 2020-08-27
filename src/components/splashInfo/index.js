@@ -16,19 +16,18 @@ const InfoCards = () => {
                             <Card.Body>
                                 <Card.Title className="card-title">For Your Business</Card.Title>
                                 <Card.Text>
-                                    <p>&#10003;    Speed of Construction<br />
+                                    <p className="info-text">&#10003;    Speed of Construction<br />
                                         &#10003;   Consolidation of Trades<br />
-                                        &#10003;   HVAC Reduction<br />
                                         &#10003;   Site Contention<br />
                                         &#10003;   Prescriptive Method<br />
-                                        &#10003;   Risk Mitigation<br /></p>
+                                        &#10003;   Risk Mitigation<br />
+                                        <hr />
+                                        <Button className="rounded-0" size="sm">
+                                            Team Up
+                                        </Button>
+                                    </p>
                                 </Card.Text>
                             </Card.Body>
-                            <Card.Footer>
-                                <Button className="rounded-0" size="lg" block>
-                                    Team Up
-                                    </Button>
-                            </Card.Footer>
                         </Card>
                     </Col>
                     <Col lg={4} md={12}>
@@ -37,18 +36,18 @@ const InfoCards = () => {
                             <Card.Body>
                                 <Card.Title className="card-title">For Your World</Card.Title>
                                 <Card.Text>
-                                    <p>&#10003;    100% Recyclable Blox<br />
+                                    <p className="info-text">&#10003;    100% Recyclable Blox<br />
                                         &#10003;   Chemical Free<br />
                                         &#10003;   Active C02 Reduction<br />
                                         &#10003;   Energy Efficient<br />
-                                        &#10003;   Forest Conservation<br /></p>
+                                        &#10003;   Forest Conservation<br />
+                                        <hr />
+                                        <Button className="rounded-0" size="sm">
+                                            Get Started
+                                        </Button>
+                                    </p>
                                 </Card.Text>
                             </Card.Body>
-                            <Card.Footer>
-                                <Button className="rounded-0" size="lg" block>
-                                    Get Started
-                                    </Button>
-                            </Card.Footer>
                         </Card>
                     </Col>
                     <Col lg={4} md={12}>
@@ -57,23 +56,19 @@ const InfoCards = () => {
                             <Card.Body className="pt-3">
                                 <Card.Title className="card-title">For Your Home</Card.Title>
                                 <Card.Text>
-                                    <p>&#10003;    Noise Reduction<br />
-                                        &#10003;   Save Up To 50% On Utilities<br />
-                                        &#10003;   Lower Insurance Premiums<br />
-                                        <br />
-                                        <div className="card-description-2">Resistant To:<br />
-                                        &#10003;   Fires<br />
-                                        &#10003;   Earthquakes<br />
-                                        &#10003;   Hurricanes<br />
-                                        &#10003;   Tornadoes
-                                        </div></p>
+                                    <p className="info-text">
+                                        &#10003;Safety and Durability<br />
+                                        &#10003;   Fire Resistant<br />
+                                        &#10003;   Earthquake Resistant<br />
+                                        &#10003;   Hurricane Resistant<br />
+                                        &#10003;   Tornado Resistant
+                                        <hr />
+                                        <Button className="rounded-0" size="sm">
+                                            Join Us
+                                        </Button>
+                                    </p>
                                 </Card.Text>
                             </Card.Body>
-                            <Card.Footer>
-                                <Button className="rounded-0" size="lg" block>
-                                    Join Us
-                                    </Button>
-                            </Card.Footer>
                         </Card>
                     </Col>
                 </CardDeck>

@@ -24,9 +24,12 @@
     font-weight: bold;
     text-align: center;
     padding: 2px;
-    background-color: #297373;
-    box-shadow: 2px 2px #451F55;
-    color: #E6E6E6;
+    color: #297373;
+    text-shadow: 1px 1px #451F55;
+}
+
+.info-text {
+    text-align: center;
 }
 
 .card-description-2 {
@@ -35,9 +38,11 @@
 
 .rounded-0 {  
     position: relative;
-    background-color: #451F55;
-    border-color: #451F55;
-    box-shadow: 3px 3px #297373;
+    width: fit-content;
+    text-align: center;
+    background-color: #297373;
+    border-color: #297373;
+    box-shadow: 3px 3px #451F55;
     color: #E6E6E6;
 }
 
