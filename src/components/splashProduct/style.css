@@ -1,10 +1,11 @@
 .products-container {
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .products-hero {
     padding: 40px 20px 10px 20px;
     height: fit-content;
+    background-color: #F8F9FA;
 }
 
 .products-headline {
@@ -16,6 +17,9 @@
 
 .all-product-description {
     text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #451F55;
 }
 
 @media only screen and (max-width: 992px) {
