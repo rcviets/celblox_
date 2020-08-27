@@ -8,6 +8,8 @@
 
 .product-card-body {
     background-color: #e9ecef;
+    border: 2px solid #451F55;
+    box-shadow: 1px 1px #297373;
 }
 
 .product-card-info {
@@ -16,4 +18,6 @@
 
 .product-image {
     float: left;
+    border: 2px solid #451F55;
+    box-shadow: 1px 1px #297373;
 }
