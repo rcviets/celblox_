@@ -9,7 +9,7 @@ import "./style.css";
 const Navigation = () => {
   return (
     <Router>
-      <Navbar fixed="top" collapseOnSelect expand="lg" bg="light" variant="dark">
+      <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="dark">
         <Navbar.Brand href="https://rcviets.github.io/celblox_/#/">
           <img
             src={require("../../images/CelBlox_Logo.png")}

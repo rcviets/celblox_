@@ -11,11 +11,6 @@ class Products extends Component {
             <>
             <Container fluid>
                 <Row>
-                    <Col lg={12} md={12}>
-                        <Navigation />
-                    </Col>
-                </Row>
-                <Row>
                     <Col xl={12} lg={12} md={12}>
                         <ProductHero />
                     </Col>
@@ -26,7 +21,6 @@ class Products extends Component {
                     </Col>
                 </Row>
             </Container>
-                <Footer />
             </>
         );
     };
