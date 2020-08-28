@@ -11,8 +11,8 @@ const InfoCards = () => {
             <Row>
                 <CardDeck className="info-deck">
                     <Col lg={4} md={12}>
-                        <Card className='info-card pt-5'>
-                            <Card.Img variant="top" src={require("../../images/contractorCard.svg")} />
+                        <Card className="info-card">
+                            <Card.Img variant="top" className="pt-5" src={require("../../images/contractorCard.svg")} />
                             <Card.Body>
                                 <Card.Title className="card-title">For Your Business</Card.Title>
                                 <Card.Text>
@@ -31,8 +31,8 @@ const InfoCards = () => {
                         </Card>
                     </Col>
                     <Col lg={4} md={12}>
-                        <Card className='info-card pt-2'>
-                            <Card.Img variant="top" src={require("../../images/customerCard1.svg")} />
+                        <Card className="info-card">
+                            <Card.Img variant="top" className="pt-2" src={require("../../images/customerCard1.svg")} />
                             <Card.Body>
                                 <Card.Title className="card-title">For Your World</Card.Title>
                                 <Card.Text>
@@ -51,8 +51,8 @@ const InfoCards = () => {
                         </Card>
                     </Col>
                     <Col lg={4} md={12}>
-                        <Card className="info-card pt-1">
-                            <Card.Img variant="top" src={require("../../images/customerCard2.svg")} />
+                        <Card className="info-card">
+                            <Card.Img variant="top" className="pt-2" src={require("../../images/customerCard2.svg")} />
                             <Card.Body className="pt-3">
                                 <Card.Title className="card-title">For Your Home</Card.Title>
                                 <Card.Text>

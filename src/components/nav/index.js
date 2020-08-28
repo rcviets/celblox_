@@ -9,20 +9,20 @@ import "./style.css";
 const Navigation = () => {
   return (
     <Router>
-      <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="dark">
+      <Navbar className="main-nav" sticky="top" collapseOnSelect expand="lg">
         <Navbar.Brand href="https://rcviets.github.io/celblox_/#/">
           <img
             src={require("../../images/CelBlox_Logo.png")}
             width="400"
             height="50"
-            className="d-inline-block align-top"
+            className="main-nav-logo d-inline-block align-top"
             alt="Celblox logo"
           />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" className="nav-button" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <h5 className="brand-text">The Future Is Coming Together</h5>
+            <h5 className="main-brand-text">The Future Is Coming Together</h5>
           </Nav>
           <Nav>
             <Nav.Link style={{ color: "#451F55" }} className="nav-links" href="#deets">Log In</Nav.Link>

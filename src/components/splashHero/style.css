@@ -5,16 +5,6 @@
     background-repeat: no-repeat repeat;
     margin-top: 10px;
 }
- 
-.splash-hero-header {
-    position: relative;
-    text-align: center;
-    top: 100px;
-    font-size: 50px;
-    color: #451F55;
-    text-shadow: 1px 2px #000000;
-    display: inline;
-}
 
 @media only screen and (max-width: 992px) {
     /* For mobile phones: */
