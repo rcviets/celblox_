@@ -5,7 +5,7 @@ import "./style.css"
 
 const SplashHero = () => {
   return (
-          <Jumbotron className="splash-hero" fluid />
+    <Jumbotron className="splash-hero" fluid />
   );
 };
 

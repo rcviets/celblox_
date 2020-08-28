@@ -20,12 +20,16 @@
     width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 375px) {
     /* For mobile phones: */
+    [class*="main-nav"] {
+       padding-top: 0px;
+    }
+
     [class*="main-nav-logo"] {
         width: 75%;
         height: 75%;
-        margin-left: 55px;
+        margin-left: 35px;
     }
 
     [class*="nav-links"] {
