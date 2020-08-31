@@ -22,6 +22,29 @@
     color: #451F55;
 }
 
+.product-button {  
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    background-color: #451F55;
+    border-color: #451F55;
+    box-shadow: 3px 3px #297373;
+    color: #E6E6E6;
+}
+
+.product-button:hover {
+    background-color: #297373;
+    border-color: #297373;
+    box-shadow: 3px 3px #451F55;
+    color: #E6E6E6;
+}
+
+.product-button:active{
+    background-color: #E6E6E6 !important;
+    border-color: #451F55 !important;
+    box-shadow: 3px 3px #297373 !important; 
+}
+
 @media only screen and (max-width: 992px) {
     /* For mobile phones: */
     [class*="products-hero"] {

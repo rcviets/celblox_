@@ -15,7 +15,7 @@ const ProductHero = () => {
                         <h1 className="products-headline">Dimensions</h1>
                     </Col>
                     <Col md={3}>
-                        <Button className="rounded-0"  block>Request A Quote</Button>
+                        <Button className="product-button rounded-0" size="lg" block>Request A Quote</Button>
                     </Col>
                     </Row>
             <hr className="line-break-one"></hr>
