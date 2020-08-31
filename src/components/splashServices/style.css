@@ -1,0 +1,61 @@
+.services-header {
+    position: relative;
+    text-align: center;
+    color: #297373;
+    text-shadow: 2px 2px #451F55;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.services-deck {
+    padding-bottom: 250px;
+}
+
+.services-card {
+    position: relative;
+    padding: 20px;
+    margin: 10px;
+    height: 500px;
+    color: #451F55;
+    font-weight: bold;
+    background-color: #F8F9FA;
+    border-color: #F8F9FA;
+    z-index: 2;
+}
+
+.services-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    color: #297373;
+    text-shadow: 1px 1px #451F55;
+}
+
+.services-text {
+    text-align: center;
+}
+
+.services-button {  
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    background-color: #297373;
+    border-color: #297373;
+    box-shadow: 3px 3px #451F55;
+    color: #E6E6E6;
+}
+
+.services-button:hover {
+    background-color: #451F55;
+    border-color: #451F55;
+    box-shadow: 3px 3px #297373;
+    color: #E6E6E6;
+}
+
+.services-button:active{
+    background-color: #E6E6E6 !important;
+    border-color: #297373 !important;
+    box-shadow: 3px 3px #451F55 !important; 
+}

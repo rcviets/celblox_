@@ -12,9 +12,9 @@ const InfoCards = () => {
                 <CardDeck className="info-deck">
                     <Col lg={4} md={12}>
                         <Card className="info-card">
-                            <Card.Img variant="top" className="pt-5" src={require("../../images/contractorCard.svg")} />
+                            <Card.Img variant="top" className="pt-5" src={require("../../images/splashContractorCard.svg")} />
                             <Card.Body>
-                                <Card.Title className="card-title">For Your Business</Card.Title>
+                                <Card.Title className="info-title">For Your Business</Card.Title>
                                 <Card.Text>
                                     <p className="info-text">&#10003;    Speed of Construction<br />
                                         &#10003;   Consolidation of Trades<br />
@@ -22,7 +22,7 @@ const InfoCards = () => {
                                         &#10003;   Prescriptive Method<br />
                                         &#10003;   Risk Mitigation<br />
                                         <hr />
-                                        <Button className="rounded-0" size="sm">
+                                        <Button className="info-button rounded-0" size="sm">
                                             Team Up
                                         </Button>
                                     </p>
@@ -32,9 +32,9 @@ const InfoCards = () => {
                     </Col>
                     <Col lg={4} md={12}>
                         <Card className="info-card">
-                            <Card.Img variant="top" className="pt-2" src={require("../../images/customerCard1.svg")} />
+                            <Card.Img variant="top" className="pt-2" src={require("../../images/splashCustomerCard1.svg")} />
                             <Card.Body>
-                                <Card.Title className="card-title">For Your World</Card.Title>
+                                <Card.Title className="info-title">For Your World</Card.Title>
                                 <Card.Text>
                                     <p className="info-text">&#10003;    100% Recyclable Blox<br />
                                         &#10003;   Chemical Free<br />
@@ -42,7 +42,7 @@ const InfoCards = () => {
                                         &#10003;   Energy Efficient<br />
                                         &#10003;   Forest Conservation<br />
                                         <hr />
-                                        <Button className="rounded-0" size="sm">
+                                        <Button className="info-button rounded-0" size="sm">
                                             Get Started
                                         </Button>
                                     </p>
@@ -52,9 +52,9 @@ const InfoCards = () => {
                     </Col>
                     <Col lg={4} md={12}>
                         <Card className="info-card">
-                            <Card.Img variant="top" className="pt-2" src={require("../../images/customerCard2.svg")} />
+                            <Card.Img variant="top" className="pt-2" src={require("../../images/splashCustomerCard2.svg")} />
                             <Card.Body className="pt-3">
-                                <Card.Title className="card-title">For Your Home</Card.Title>
+                                <Card.Title className="info-title">For Your Home</Card.Title>
                                 <Card.Text>
                                     <p className="info-text">
                                         &#10003;Safety and Durability<br />
@@ -63,7 +63,7 @@ const InfoCards = () => {
                                         &#10003;   Hurricane Resistant<br />
                                         &#10003;   Tornado Resistant
                                         <hr />
-                                        <Button className="rounded-0" size="sm">
+                                        <Button className="info-button rounded-0" size="sm">
                                             Join Us
                                         </Button>
                                     </p>

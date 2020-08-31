@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import ResourceHero from "../components/splashResources";
+import ResourceHero from "../components/resourcesHero";
 
 class Resources extends Component {
     render() {

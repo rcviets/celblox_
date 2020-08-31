@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 import Navbar from "react-bootstrap/Navbar";
 import "./style.css";
 
-const TopNav = () => {
+const NavTop = () => {
     return (
         <Navbar className="top-nav" fluid>
             <Col className="top-nav-column" md={4}></Col>
@@ -23,4 +23,4 @@ const TopNav = () => {
     );
 };
 
-export default TopNav;
+export default NavTop;

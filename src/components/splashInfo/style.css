@@ -6,6 +6,15 @@
     padding-bottom: 250px;
 }
 
+.info-title {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    color: #451F55;
+    text-shadow: 1px 1px #297373;
+}
+
 .info-card {
     position: relative;
     top: 150px;
@@ -19,41 +28,28 @@
     z-index: 2;
 }
 
-.card-title {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    padding: 2px;
-    color: #297373;
-    text-shadow: 1px 1px #451F55;
-}
-
 .info-text {
     text-align: center;
 }
 
-.card-description-2 {
-    text-align: center;
-}
-
-.rounded-0 {  
+.info-button {  
     position: relative;
     width: fit-content;
     text-align: center;
+    background-color: #451F55;
+    border-color: #451F55;
+    box-shadow: 3px 3px #297373;
+    color: #E6E6E6;
+}
+
+.info-button:hover {
     background-color: #297373;
     border-color: #297373;
     box-shadow: 3px 3px #451F55;
     color: #E6E6E6;
 }
 
-.rounded-0:hover {
-    background-color: #297373;
-    border-color: #297373;
-    box-shadow: 3px 3px #451F55;
-    color: #E6E6E6;
-}
-
-.rounded-0:active{
+.info-button:active{
     background-color: #E6E6E6 !important;
     border-color: #451F55 !important;
     box-shadow: 3px 3px #297373 !important; 

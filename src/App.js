@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
-import TopNav from "./components/topNav/index";
+import NavTop from "./components/navTop/index";
 import Navigation from "./components/nav";
 import Home from "./pages/home";
 import Products from "./pages/products";
@@ -17,7 +17,7 @@ import "./App.css";
 function App() {
   return (
     <>
-    <TopNav />
+    <NavTop />
     <Navigation />
       <Router>
         <Switch>

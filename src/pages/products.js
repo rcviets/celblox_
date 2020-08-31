@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Navigation from "../components/nav/index";
-import ProductHero from "../components/splashProduct/index";
-import ProductCard from "../components/cardProduct/index";
-import Footer from "../components/footer/index";
+import ProductHero from "../components/productSplash/index";
+import ProductCard from "../components/productCard/index";
 
 class Products extends Component {
     render() {

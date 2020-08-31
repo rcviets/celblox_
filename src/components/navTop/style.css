@@ -1,6 +1,7 @@
 .top-nav {
     background-color: #451F55;
     width: 100%;
+    top: 0px;
 }
 
 .top-nav-column {
