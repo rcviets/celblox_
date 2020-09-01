@@ -6,10 +6,17 @@ import "./style.css";
 
 const ProductHero = () => {
     return (
-        <Container className="products-container">
+        <>
+            <Row>
+                <Col md={12}>
+                    <Jumbotron className="products-hero" fluid>
+
+                    </Jumbotron>
+                </Col>
+            </Row>
                 <Row>
                     <Col md={12}>
-            <Jumbotron className="products-hero">
+            <Jumbotron className="products-header">
                 <Row>
                     <Col md={9}>
                         <h1 className="products-headline">Dimensions</h1>
@@ -23,7 +30,7 @@ const ProductHero = () => {
             </Jumbotron>
             </Col>
                     </Row>
-        </Container>
+        </>
     );
 };
 

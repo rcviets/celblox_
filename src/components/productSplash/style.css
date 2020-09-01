@@ -1,8 +1,12 @@
-.products-container {
-    margin-top: 100px;
+.products-hero {
+    background-image: url(../../images/shop2.png);
+    margin-top: 50px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat repeat;
 }
 
-.products-hero {
+.products-header {
     padding: 40px 20px 10px 20px;
     height: fit-content;
     background-color: #F8F9FA;
@@ -16,6 +20,8 @@
 }
 
 .all-product-description {
+    position: relative;
+    margin-top: 25px;
     text-align: center;
     font-weight: bold;
     font-size: 25px;

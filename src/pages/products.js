@@ -7,7 +7,6 @@ class Products extends Component {
     render() {
         return (
             <>
-            <Container fluid>
                 <Row>
                     <Col xl={12} lg={12} md={12}>
                         <ProductHero />
@@ -18,7 +17,6 @@ class Products extends Component {
                         <ProductCard />
                     </Col>
                 </Row>
-            </Container>
             </>
         );
     };
