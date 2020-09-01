@@ -8,7 +8,7 @@ const ProductCard = () => {
     return (
         <Container className="product-card-container">
             <Row className="product-card-deck">
-                <Col md={6} sm={12} xs={12}>
+                <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
                             <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
@@ -17,7 +17,7 @@ const ProductCard = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col md={6} sm={12} xs={12}>
+                <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
                             <Image className="product-image" src={require("../../images/singleTaper.png")} thumbnail />
@@ -28,7 +28,7 @@ const ProductCard = () => {
                 </Col>
             </Row>
             <Row className="product-card-deck">
-                <Col md={6} sm={12} xs={12}>
+                <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
                             <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
@@ -37,7 +37,7 @@ const ProductCard = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col md={6} sm={12} xs={12}>
+                <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
                             <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
@@ -48,7 +48,7 @@ const ProductCard = () => {
                 </Col>
             </Row>
             <Row className="product-card-deck">
-                <Col md={6} sm={12} xs={12}>
+                <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
                             <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
@@ -57,7 +57,7 @@ const ProductCard = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col md={6} sm={12} xs={12}>
+                <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
                             <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />

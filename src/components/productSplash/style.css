@@ -53,16 +53,10 @@
 /* End Arrow */
 
 .products-header {
+    margin-top: 40px;
     padding: 40px 20px 10px 20px;
     height: fit-content;
     background-color: #F8F9FA;
-}
-
-.products-headline {
-    color: #451F55;
-}
-.line-break-one {
-    border: 1px solid #297373;
 }
 
 .all-product-description {
@@ -70,12 +64,20 @@
     margin-top: 25px;
     text-align: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
     color: #451F55;
 }
 
+.line-break-one {
+    bottom: 0;
+    border: 1px solid #297373;
+}
+
+/* Button */
+
 .product-button {  
     position: relative;
+    margin-top: 20px;
     width: fit-content;
     text-align: center;
     background-color: #451F55;
@@ -96,6 +98,8 @@
     border-color: #451F55 !important;
     box-shadow: 3px 3px #297373 !important; 
 }
+
+/* End Button */
 
 @media only screen and (max-width: 992px) {
     /* For mobile phones: */
