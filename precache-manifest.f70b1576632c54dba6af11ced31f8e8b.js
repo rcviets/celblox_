@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "467728ce8da34a553dc71bef4d6f829b",
+    "revision": "d6f6801c56fa93fd4088694d849c3ae6",
     "url": "/celblox_/index.html"
   },
   {
-    "revision": "35228d272977cf56d1dd",
+    "revision": "b84ff4c28e2e95efe9f1",
     "url": "/celblox_/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "4e0f740a8577e27dc64e",
-    "url": "/celblox_/static/css/main.647ca9f2.chunk.css"
+    "revision": "3cc74f2466dea61bc0c5",
+    "url": "/celblox_/static/css/main.f7e6f11d.chunk.css"
   },
   {
-    "revision": "35228d272977cf56d1dd",
-    "url": "/celblox_/static/js/2.a09543d2.chunk.js"
+    "revision": "b84ff4c28e2e95efe9f1",
+    "url": "/celblox_/static/js/2.1dce5500.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/celblox_/static/js/2.a09543d2.chunk.js.LICENSE.txt"
+    "url": "/celblox_/static/js/2.1dce5500.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4e0f740a8577e27dc64e",
-    "url": "/celblox_/static/js/main.13da0cec.chunk.js"
+    "revision": "3cc74f2466dea61bc0c5",
+    "url": "/celblox_/static/js/main.4631ab97.chunk.js"
   },
   {
     "revision": "df35343b17e1f283ccd9",
@@ -44,8 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/celblox_/static/media/shop1.0382989c.png"
   },
   {
-    "revision": "615b6f504e07cf871f94f83e56607903",
-    "url": "/celblox_/static/media/singleTaper.615b6f50.png"
+    "revision": "235475c0e66900aaff3f4a8c8ab19c07",
+    "url": "/celblox_/static/media/shop2.235475c0.png"
+  },
+  {
+    "revision": "68b76e52d81216bc98e0aad5e6b10f18",
+    "url": "/celblox_/static/media/singleTaper.68b76e52.png"
   },
   {
     "revision": "aecf102d0e9a9eca5faa54d683286c12",
@@ -72,7 +76,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/celblox_/static/media/splashResourceCard.9468a435.svg"
   },
   {
-    "revision": "5a0cb96a2ed9dd90f75b7f23aff07748",
-    "url": "/celblox_/static/media/straightBlock.5a0cb96a.png"
+    "revision": "df1be3311a7bb1a51fc5a375fa3290ab",
+    "url": "/celblox_/static/media/straightBlock.df1be331.png"
   }
 ]);
