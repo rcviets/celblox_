@@ -6,13 +6,9 @@ class Resources extends Component {
     render() {
         return (
             <>
-            <Container fluid>
-                <Row>
-                    <Col xl={12} lg={12} md={12}>
-                        <ResourceHero />
-                    </Col>
-                </Row>
-            </Container>
+                <Col xl={12} lg={12} md={12}>
+                    <ResourceHero />
+                </Col>
             </>
         );
     };
