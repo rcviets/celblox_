@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d6f6801c56fa93fd4088694d849c3ae6",
+    "revision": "6f468c88d105dd159e2ef591763610a5",
     "url": "/celblox_/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/celblox_/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "3cc74f2466dea61bc0c5",
+    "revision": "93259941b4d0b20dc88a",
     "url": "/celblox_/static/css/main.f7e6f11d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/celblox_/static/js/2.1dce5500.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3cc74f2466dea61bc0c5",
-    "url": "/celblox_/static/js/main.4631ab97.chunk.js"
+    "revision": "93259941b4d0b20dc88a",
+    "url": "/celblox_/static/js/main.f70141f6.chunk.js"
   },
   {
     "revision": "df35343b17e1f283ccd9",
@@ -48,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/celblox_/static/media/shop2.235475c0.png"
   },
   {
-    "revision": "68b76e52d81216bc98e0aad5e6b10f18",
-    "url": "/celblox_/static/media/singleTaper.68b76e52.png"
+    "revision": "8838b7dec7dd67b06968facf0103e1dc",
+    "url": "/celblox_/static/media/singleTaper.8838b7de.png"
   },
   {
     "revision": "aecf102d0e9a9eca5faa54d683286c12",

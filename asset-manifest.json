@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/celblox_/static/css/main.f7e6f11d.chunk.css",
-    "main.js": "/celblox_/static/js/main.4631ab97.chunk.js",
-    "main.js.map": "/celblox_/static/js/main.4631ab97.chunk.js.map",
+    "main.js": "/celblox_/static/js/main.f70141f6.chunk.js",
+    "main.js.map": "/celblox_/static/js/main.f70141f6.chunk.js.map",
     "runtime-main.js": "/celblox_/static/js/runtime-main.eed86bcd.js",
     "runtime-main.js.map": "/celblox_/static/js/runtime-main.eed86bcd.js.map",
     "static/css/2.11829350.chunk.css": "/celblox_/static/css/2.11829350.chunk.css",
     "static/js/2.1dce5500.chunk.js": "/celblox_/static/js/2.1dce5500.chunk.js",
     "static/js/2.1dce5500.chunk.js.map": "/celblox_/static/js/2.1dce5500.chunk.js.map",
     "index.html": "/celblox_/index.html",
-    "precache-manifest.f70b1576632c54dba6af11ced31f8e8b.js": "/celblox_/precache-manifest.f70b1576632c54dba6af11ced31f8e8b.js",
+    "precache-manifest.8ad0b438ead9ddf85677d9ab67c832b0.js": "/celblox_/precache-manifest.8ad0b438ead9ddf85677d9ab67c832b0.js",
     "service-worker.js": "/celblox_/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/celblox_/static/css/2.11829350.chunk.css.map",
     "static/css/main.f7e6f11d.chunk.css.map": "/celblox_/static/css/main.f7e6f11d.chunk.css.map",
@@ -18,7 +18,7 @@
     "static/media/CelBlox_Logo_mini.png": "/celblox_/static/media/CelBlox_Logo_mini.3bd847d7.png",
     "static/media/App.css": "/celblox_/static/media/heroSmall.990824ef.png",
     "static/media/style.css": "/celblox_/static/media/splashHero.cf74a475.png",
-    "static/media/singleTaper.png": "/celblox_/static/media/singleTaper.68b76e52.png",
+    "static/media/singleTaper.png": "/celblox_/static/media/singleTaper.8838b7de.png",
     "static/media/splashContractorCard.svg": "/celblox_/static/media/splashContractorCard.aecf102d.svg",
     "static/media/splashCustomerCard1.svg": "/celblox_/static/media/splashCustomerCard1.24b08efa.svg",
     "static/media/splashCustomerCard2.svg": "/celblox_/static/media/splashCustomerCard2.fc11d19b.svg",
@@ -31,6 +31,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.1dce5500.chunk.js",
     "static/css/main.f7e6f11d.chunk.css",
-    "static/js/main.4631ab97.chunk.js"
+    "static/js/main.f70141f6.chunk.js"
   ]
 }
