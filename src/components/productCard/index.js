@@ -6,7 +6,7 @@ import "./style.css";
 
 const ProductCard = () => {
     return (
-        <Container className="product-card-container">
+        <Container className="product-card-container" fluid>
             <Row className="product-card-deck">
                 <Col md={12}>
                     <Card className="product-card-body">
@@ -16,6 +16,7 @@ const ProductCard = () => {
                                 Straight Block</p>
                         </Card.Body>
                     </Card>
+                    <hr className="product-card-break"/>
                 </Col>
                 <Col md={12}>
                     <Card className="product-card-body">
@@ -25,6 +26,7 @@ const ProductCard = () => {
                                 Corner Block</p>
                         </Card.Body>
                     </Card>
+                    <hr className="product-card-break"/>
                 </Col>
             </Row>
             <Row className="product-card-deck">
@@ -36,6 +38,7 @@ const ProductCard = () => {
                                 Corner Block</p>
                         </Card.Body>
                     </Card>
+                    <hr className="product-card-break"/>
                 </Col>
                 <Col md={12}>
                     <Card className="product-card-body">
@@ -45,6 +48,7 @@ const ProductCard = () => {
                                 Top Block</p>
                         </Card.Body>
                     </Card>
+                    <hr className="product-card-break"/>
                 </Col>
             </Row>
             <Row className="product-card-deck">
@@ -56,6 +60,7 @@ const ProductCard = () => {
                                 Top Block</p>
                         </Card.Body>
                     </Card>
+                    <hr className="product-card-break"/>
                 </Col>
                 <Col md={12}>
                     <Card className="product-card-body">
@@ -65,6 +70,7 @@ const ProductCard = () => {
                                 Brick Block</p>
                         </Card.Body>
                     </Card>
+                    <hr className="product-card-break"/>
                 </Col>
             </Row>
         </Container>
