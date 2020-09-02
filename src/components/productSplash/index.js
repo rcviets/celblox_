@@ -7,37 +7,26 @@ import "./style.css";
 const ProductHero = () => {
     return (
         <>
-            <Row>
-                <Col md={12}>
-                    <Jumbotron className="products-hero" fluid>
-                        <h1 className="products-headline">Browse Products</h1>
-                            <div class="arrow">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                    </Jumbotron>
-                </Col>
-            </Row>
-            <Row>
-                <Col md={12}>
-                    <Jumbotron className="products-header">
-                        <Row>
-                            <Col md={9}>
-                                <p className="all-product-description">
-                                    All Blocks come with 4", 6", 8", 10", or 12" Cores
+            <Col md={12}>
+                <Jumbotron className="products-hero" fluid>
+                    <h1 className="products-headline">Browse Products</h1>
+                    <div class="arrow">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </Jumbotron>
+            </Col>
+            <Col md={12}>
+                <Jumbotron className="products-header">
+                    <Col md={9}>
+                        <p className="all-product-description">
+                            All Blocks come with 4", 6", 8", 10", or 12" Cores
                                 </p>
-                            </Col>
-                            <Col md={3}>
-                                <Button className="product-button rounded-0" size="lg" block>
-                                    Request A Quote
-                                </Button>
-                            </Col>
-                        </Row>
-                        <hr className="line-break-one"></hr>
-                    </Jumbotron>
-                </Col>
-            </Row>
+                    </Col>
+                    <hr className="line-break-one"></hr>
+                </Jumbotron>
+            </Col>
         </>
     );
 };

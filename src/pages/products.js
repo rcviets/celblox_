@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Col } from "react-bootstrap";
 import ProductHero from "../components/productSplash/index";
 import ProductCard from "../components/productCard/index";
+import QuoteButton from "../components/quoteButton/index";
 
 class Products extends Component {
     render() {
@@ -13,6 +14,7 @@ class Products extends Component {
                 <Col lg={12} md={12}>
                     <ProductCard />
                 </Col>
+                <QuoteButton />
             </>
         );
     };

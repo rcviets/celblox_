@@ -1,0 +1,13 @@
+.quote-button {
+    position: fixed;
+    bottom: -4px;
+    left: 1000px;
+}
+
+.product-button {
+    background-color : #297373;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border-color: #451F55;
+  }
