@@ -6,12 +6,12 @@
     background-repeat: no-repeat repeat;
 }
 
-.products-hero-headline {
+.products-headline {
     position: relative;
+    top: 200px;
+    background-color: #F8F9FA;
     text-align: center;
-    top: 50%;
-    font-weight: bold;
-    color: #000000;
+    color: #297373;
 }
 
 /* Arrow */

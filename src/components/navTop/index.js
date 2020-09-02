@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
+import Col from "react-bootstrap/Col";
 import Navbar from "react-bootstrap/Navbar";
 import "./style.css";
 
