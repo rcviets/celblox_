@@ -1,11 +1,11 @@
 .services-header {
     position: relative;
     text-align: center;
-    color: #297373;
-    text-shadow: 2px 2px #451F55;
+    color: #451F55;
+    text-shadow: 2px 2px #297373;
     font-size: 50px;
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .services-deck {

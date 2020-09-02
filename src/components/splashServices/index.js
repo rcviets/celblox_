@@ -22,7 +22,7 @@ const ServiceCards = () => {
                                         Spec Sheets<br />
                                         CAD Downloads
                                     <hr />
-                                        <Button className="services-button rounded-0" size="lg">
+                                        <Button className="services-button rounded-0" size="sm">
                                             Download Resources
                                         </Button>
                                     </p>
@@ -40,7 +40,7 @@ const ServiceCards = () => {
                                         Block Dimensions<br />
                                         Core Widths
                                     <hr />
-                                        <Button className="services-button rounded-0" size="lg">
+                                        <Button className="services-button rounded-0" size="sm">
                                             Request Product Quote
                                         </Button>
                                     </p>
