@@ -10,7 +10,7 @@ const ProductHero = () => {
             <Col md={12}>
                 <Jumbotron className="products-hero" fluid>
                     <h1 className="products-headline">Browse Products</h1>
-                    <div class="arrow">
+                    <div class="product-arrow">
                         <span></span>
                         <span></span>
                         <span></span>

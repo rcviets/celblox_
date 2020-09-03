@@ -16,13 +16,12 @@ const ServiceCards = () => {
                     <Card className="services-card">
                         <Card.Img variant="top" className="pt-0" src={require("../../images/splashResourceCard.svg")} />
                         <Card.Body>
-
                             <Card.Text>
                                     <p className="services-text">
                                         Spec Sheets<br />
                                         CAD Downloads
                                     <hr />
-                                        <Button className="services-button rounded-0" size="sm">
+                                        <Button className="services-button rounded-0" size="sm" href="https://rcviets.github.io/celblox_/#/resources">
                                             Download Resources
                                         </Button>
                                     </p>
@@ -40,8 +39,8 @@ const ServiceCards = () => {
                                         Block Dimensions<br />
                                         Core Widths
                                     <hr />
-                                        <Button className="services-button rounded-0" size="sm">
-                                            Request Product Quote
+                                        <Button className="services-button rounded-0" size="sm" href="https://rcviets.github.io/celblox_/#/products">
+                                            Browse Products
                                         </Button>
                                     </p>
                             </Card.Text>

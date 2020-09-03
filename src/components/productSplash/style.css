@@ -15,13 +15,13 @@
 }
 
 /* Arrow */
-.arrow{
+.product-arrow{
     position: absolute;
     top: 75%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-.arrow span{
+.product-arrow span{
     display: block;
     width: 30px;
     height: 30px;
@@ -31,10 +31,10 @@
     margin: -10px;
     animation: animate 2s infinite;
 }
-.arrow span:nth-child(2){
+.product-arrow span:nth-child(2){
     animation-delay: -0.2s;
 }
-.arrow span:nth-child(3){
+.product-arrow span:nth-child(3){
     animation-delay: -0.4s;
 }
 @keyframes animate {
