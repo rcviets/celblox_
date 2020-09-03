@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/celblox_/static/css/main.72e38613.chunk.css",
-    "main.js": "/celblox_/static/js/main.a82f3fd9.chunk.js",
-    "main.js.map": "/celblox_/static/js/main.a82f3fd9.chunk.js.map",
+    "main.css": "/celblox_/static/css/main.57cef01d.chunk.css",
+    "main.js": "/celblox_/static/js/main.7b173f23.chunk.js",
+    "main.js.map": "/celblox_/static/js/main.7b173f23.chunk.js.map",
     "runtime-main.js": "/celblox_/static/js/runtime-main.eed86bcd.js",
     "runtime-main.js.map": "/celblox_/static/js/runtime-main.eed86bcd.js.map",
     "static/css/2.11829350.chunk.css": "/celblox_/static/css/2.11829350.chunk.css",
-    "static/js/2.89a970e8.chunk.js": "/celblox_/static/js/2.89a970e8.chunk.js",
-    "static/js/2.89a970e8.chunk.js.map": "/celblox_/static/js/2.89a970e8.chunk.js.map",
+    "static/js/2.75e07529.chunk.js": "/celblox_/static/js/2.75e07529.chunk.js",
+    "static/js/2.75e07529.chunk.js.map": "/celblox_/static/js/2.75e07529.chunk.js.map",
     "index.html": "/celblox_/index.html",
-    "precache-manifest.5af1e91e34836893d1a523ab06463d82.js": "/celblox_/precache-manifest.5af1e91e34836893d1a523ab06463d82.js",
+    "precache-manifest.9a1f8013e71a35d08eff8a75e30639a8.js": "/celblox_/precache-manifest.9a1f8013e71a35d08eff8a75e30639a8.js",
     "service-worker.js": "/celblox_/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/celblox_/static/css/2.11829350.chunk.css.map",
-    "static/css/main.72e38613.chunk.css.map": "/celblox_/static/css/main.72e38613.chunk.css.map",
-    "static/js/2.89a970e8.chunk.js.LICENSE.txt": "/celblox_/static/js/2.89a970e8.chunk.js.LICENSE.txt",
+    "static/css/main.57cef01d.chunk.css.map": "/celblox_/static/css/main.57cef01d.chunk.css.map",
+    "static/js/2.75e07529.chunk.js.LICENSE.txt": "/celblox_/static/js/2.75e07529.chunk.js.LICENSE.txt",
     "static/media/CelBlox_Logo.png": "/celblox_/static/media/CelBlox_Logo.0e31e2b8.png",
     "static/media/CelBlox_Logo_mini.png": "/celblox_/static/media/CelBlox_Logo_mini.3bd847d7.png",
     "static/media/App.css": "/celblox_/static/media/heroSmall.990824ef.png",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.eed86bcd.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.89a970e8.chunk.js",
-    "static/css/main.72e38613.chunk.css",
-    "static/js/main.a82f3fd9.chunk.js"
+    "static/js/2.75e07529.chunk.js",
+    "static/css/main.57cef01d.chunk.css",
+    "static/js/main.7b173f23.chunk.js"
   ]
 }
