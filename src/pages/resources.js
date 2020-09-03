@@ -10,11 +10,9 @@ class Resources extends Component {
                 <Col md={12}>
                     <ResourceHero />
                 </Col>
-                <Col md={2}></Col>
-                <Col md={8}>
+                <Col md={12}>
                     <ResourceCards />
                 </Col>
-                <Col md={2}></Col>
             </>
         );
     };
