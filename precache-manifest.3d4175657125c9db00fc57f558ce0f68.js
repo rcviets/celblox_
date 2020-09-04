@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6e8f5b06d61532b59ca0ce210d797c1a",
+    "revision": "543b47c08c90ef861f87a21f130e9bde",
     "url": "/celblox_/index.html"
   },
   {
-    "revision": "29f2c3666425947b5943",
+    "revision": "2b78fcba381ec3e88a39",
     "url": "/celblox_/static/css/2.11829350.chunk.css"
   },
   {
-    "revision": "1dff9ef76b675cb5f348",
-    "url": "/celblox_/static/css/main.57cef01d.chunk.css"
+    "revision": "c2ba5eab1a81ce07cfab",
+    "url": "/celblox_/static/css/main.c6c69ae1.chunk.css"
   },
   {
-    "revision": "29f2c3666425947b5943",
-    "url": "/celblox_/static/js/2.75e07529.chunk.js"
+    "revision": "2b78fcba381ec3e88a39",
+    "url": "/celblox_/static/js/2.59a6186f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/celblox_/static/js/2.75e07529.chunk.js.LICENSE.txt"
+    "url": "/celblox_/static/js/2.59a6186f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1dff9ef76b675cb5f348",
-    "url": "/celblox_/static/js/main.7b173f23.chunk.js"
+    "revision": "c2ba5eab1a81ce07cfab",
+    "url": "/celblox_/static/js/main.8029c536.chunk.js"
   },
   {
     "revision": "df35343b17e1f283ccd9",
@@ -38,6 +38,34 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "990824efd62d64cc6dadb3067ada39b5",
     "url": "/celblox_/static/media/heroSmall.990824ef.png"
+  },
+  {
+    "revision": "99347c63df4411159c3d45287b48aad8",
+    "url": "/celblox_/static/media/resourceCard1.99347c63.svg"
+  },
+  {
+    "revision": "ede56fd30a84a1ed9fbaa3b697c8fee6",
+    "url": "/celblox_/static/media/resourceCard2.ede56fd3.svg"
+  },
+  {
+    "revision": "7c168a367e6d45003fb2f8fc3a9a750c",
+    "url": "/celblox_/static/media/resourceCard3.7c168a36.svg"
+  },
+  {
+    "revision": "504a9f84a28c336b75bcff55946a646a",
+    "url": "/celblox_/static/media/resourceCard4.504a9f84.svg"
+  },
+  {
+    "revision": "1b248014b145f7a21c116c817c538e06",
+    "url": "/celblox_/static/media/resourceCard5.1b248014.svg"
+  },
+  {
+    "revision": "cfeca41ff5a01d4f3d5831e6d351df34",
+    "url": "/celblox_/static/media/resourceCard6.cfeca41f.svg"
+  },
+  {
+    "revision": "430d3bf1b541dd1fda8e930b7f851a4f",
+    "url": "/celblox_/static/media/resourceCard7.430d3bf1.svg"
   },
   {
     "revision": "b8b0e8446771605f67e90c758a49389a",
