@@ -6,15 +6,14 @@ import "./style.css";
 
 const ResourceCards = () => {
     return (
-        <Container className="resource-cards">
+        <Container className="resource-card-container">
             <CardColumns>
                 <Card>
                     <Card.Img variant="top" src={require("../../images/resourceCard1.svg")} />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                        <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
+                        <Card.Text className="resource-card-info">
+                            Some text to describe what is being downloaded{' '}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -22,12 +21,11 @@ const ResourceCards = () => {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="" />
+                    <Card.Img variant="top" src={require("../../images/resourceCard2.svg")} />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                        <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
+                        <Card.Text className="resource-card-info">
+                            Some text to describe what is being downloaded{' '}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -37,10 +35,9 @@ const ResourceCards = () => {
                 <Card>
                     <Card.Img variant="top" src={require("../../images/resourceCard3.svg")} />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                    <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
+                        <Card.Text className="resource-card-info">
+                            Some text to describe what is being downloaded{' '}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -48,12 +45,11 @@ const ResourceCards = () => {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={require("../../images/resourceCard4.svg")} />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                    <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
+                        <Card.Text className="resource-card-info">
+                            Some text to describe what is being downloaded{' '}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -61,12 +57,11 @@ const ResourceCards = () => {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={require("../../images/resourceCard5.svg")} />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                    <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
+                        <Card.Text className="resource-card-info">
+                            Some text to describe what is being downloaded{' '}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -76,10 +71,9 @@ const ResourceCards = () => {
                 <Card>
                     <Card.Img variant="top" src={require("../../images/resourceCard6.svg")} />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                    <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
+                        <Card.Text className="resource-card-info">
+                            Some text to describe what is being downloaded{' '}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
@@ -87,25 +81,11 @@ const ResourceCards = () => {
                     </Card.Footer>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Img variant="top" src={require("../../images/resourceCard7.svg")} />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
-                </Card>
-                <Card>
-                    <Card.Img variant="top" src="holder.js/100px160" />
-                    <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-                        content.{' '}
+                    <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
+                        <Card.Text className="resource-card-info">
+                            Some text to describe what is being downloaded{' '}
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>
