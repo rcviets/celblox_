@@ -11,8 +11,20 @@
 
 .resource-card-title {
     text-align: center;
+    color: #451F55;
+    font-weight: bold;
+    text-shadow: 1px 1px #297373;
 }
 
 .resource-card-info {
     text-align: center;
+    color: #451F55;
+    font-weight: bold;
+}
+
+.download-button {
+    text-align: center;
+    background-color: #297373;
+    border-color: #297373;
+    box-shadow: 1px 1px #451F55;
 }
