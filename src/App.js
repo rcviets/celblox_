@@ -11,6 +11,7 @@ import Navigation from "./components/nav";
 import Home from "./pages/home";
 import Products from "./pages/products";
 import Resources from "./pages/resources";
+import Login from "./pages/login";
 import Footer from "./components/footer";
 import "./App.css";
 
@@ -26,6 +27,9 @@ function App() {
           </Route>
           <Route path="/resources">
             <Resources />
+          </Route>
+          <Route path="/login">
+            <Login />
           </Route>
           <Route path="/">
             <Home />
