@@ -13,9 +13,8 @@ const LoginCard = () => {
                     <Card className="login-card">
                         <Card.Img variant="top" className="pt-5" src={require("../../images/loginCard.svg")} />
                         <Card.Body>
-                            <Card.Title className="login-title">Login Now</Card.Title>
                             <Card.Text>
-                                <p className="login-text"> Login
+                                <p className="login-text">
                                     <Button className="info-button rounded-0" size="sm">
                                         Login
                                     </Button>
