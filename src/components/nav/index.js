@@ -25,6 +25,10 @@ const Navigation = () => {
             <h5 className="main-brand-text">The Future Is Coming Together</h5>
           </Nav>
           <Nav>
+          <Nav>
+          <Nav.Link style={{ color: "#451F55" }} className="phone-number" href="https://www.google.com/maps/place/CelBlox/@43.5229283,-89.9883583,15z/data=!4m2!3m1!1s0x0:0xd90cdce3f617b66d?sa=X&ved=2ahUKEwjLnJCmmKTsAhXBGDQIHYxoDyIQ_BIwDHoECBQQBQ" target="_blank">
+            +1 (608) 616-2015</Nav.Link>
+          </Nav>
             <Nav.Link style={{ color: "#451F55" }} className="nav-links" href="#deets">Log In</Nav.Link>
             <Nav.Link eventKey={2} style={{ color: "#451F55" }} className="nav-links" href="https://rcviets.github.io/celblox_/#/products">
               Products
