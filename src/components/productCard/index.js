@@ -11,66 +11,56 @@ const ProductCard = () => {
                 <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
-                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
+                            <Image className="product-image" src={require("../../images/renderStraight.png")} thumbnail />
                                 <p className="product-text">Standard 4'<br />
                                 Straight Block</p>
+                                <hr className="product-card-break"/>
                         </Card.Body>
                     </Card>
-                    <hr className="product-card-break"/>
                 </Col>
                 <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
-                            <Image className="product-image" src={require("../../images/singleTaper.png")} thumbnail />
+                            <Image className="product-image" src={require("../../images/render90Corner.png")} thumbnail />
                                 <p className="product-text">90°<br />
                                 Corner Block</p>
+                                <hr className="product-card-break"/>
                         </Card.Body>
                     </Card>
-                    <hr className="product-card-break"/>
                 </Col>
             </Row>
             <Row className="product-card-deck">
                 <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
-                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
+                            <Image className="product-image" src={require("../../images/render45Corner.png")} thumbnail />
                                 <p className="product-text">45°<br />
                                 Corner Block</p>
+                                <hr className="product-card-break"/>
                         </Card.Body>
                     </Card>
-                    <hr className="product-card-break"/>
                 </Col>
                 <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
-                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
-                                <p className="product-text">Single Taper<br />
+                            <Image className="product-image" src={require("../../images/renderTaper.png")} thumbnail />
+                                <p className="product-text">Single and Double Taper<br />
                                 Top Block</p>
+                                <hr className="product-card-break"/>
                         </Card.Body>
                     </Card>
-                    <hr className="product-card-break"/>
                 </Col>
             </Row>
-            <Row className="product-card-deck">
+            <Row>
                 <Col md={12}>
                     <Card className="product-card-body">
                         <Card.Body className="product-card-info">
-                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
-                                <p className="product-text">Double Taper<br />
-                                Top Block</p>
-                        </Card.Body>
-                    </Card>
-                    <hr className="product-card-break"/>
-                </Col>
-                <Col md={12}>
-                    <Card className="product-card-body">
-                        <Card.Body className="product-card-info">
-                            <Image className="product-image" src={require("../../images/straightBlock.png")} thumbnail />
+                            <Image className="product-image" src={require("../../images/renderLedge.png")} thumbnail />
                                 <p className="product-text">Ledge<br />
                                 Brick Block</p>
+                                <hr className="product-card-break"/>
                         </Card.Body>
                     </Card>
-                    <hr className="product-card-break"/>
                 </Col>
             </Row>
         </Container>
