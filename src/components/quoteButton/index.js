@@ -7,7 +7,7 @@ const QuoteButton = () => {
     return (
         <>
             <Container className="quote-button">
-                <Button className="product-button rounded-0" size="lg" block>
+                <Button className="product-button rounded-0" size="lg" href="https://rcviets.github.io/celblox_/#/contact" block>
                     Request A Quote
                 </Button>
             </Container>

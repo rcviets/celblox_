@@ -22,7 +22,7 @@ const InfoCards = () => {
                                         &#10003;   Prescriptive Method<br />
                                         &#10003;   Risk Mitigation<br />
                                         <hr />
-                                        <Button className="info-button rounded-0" size="sm">
+                                        <Button className="info-button rounded-0" size="sm" href="https://rcviets.github.io/celblox_/#/contact">
                                             Team Up
                                         </Button>
                                     </p>
@@ -42,7 +42,7 @@ const InfoCards = () => {
                                         &#10003;   Energy Efficient<br />
                                         &#10003;   Forest Conservation<br />
                                         <hr />
-                                        <Button className="info-button rounded-0" size="sm">
+                                        <Button className="info-button rounded-0" size="sm" href="https://rcviets.github.io/celblox_/#/contact">
                                             Get Started
                                         </Button>
                                     </p>
@@ -63,7 +63,7 @@ const InfoCards = () => {
                                         &#10003;   Hurricane Resistant<br />
                                         &#10003;   Tornado Resistant
                                         <hr />
-                                        <Button className="info-button rounded-0" size="sm">
+                                        <Button className="info-button rounded-0" size="sm" href="https://rcviets.github.io/celblox_/#/contact">
                                             Join Us
                                         </Button>
                                     </p>
