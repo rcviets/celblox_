@@ -12,6 +12,7 @@ import Home from "./pages/home";
 import Products from "./pages/products";
 import Resources from "./pages/resources";
 import Login from "./pages/login";
+import Contact from "./pages/contact";
 import NotFound from "./pages/404";
 import Footer from "./components/footer";
 import "./App.css";
@@ -27,10 +28,13 @@ function App() {
             <Products />
           </Route>
           <Route path="/resources">
-            <Resources />
+            <NotFound />
           </Route>
           <Route path="/login">
             <NotFound />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path="/404">
             <NotFound />

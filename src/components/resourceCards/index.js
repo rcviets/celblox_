@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import CardColumns from "react-bootstrap/CardColumns";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import AdvantagePDF from "../resources/advantages";
 import "./style.css";
 
 const ResourceCards = () => {
