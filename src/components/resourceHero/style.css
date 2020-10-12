@@ -8,11 +8,10 @@
 
 .resource-headline {
     position: relative;
+    top: 200px;
+    background-color: #F8F9FA;
     text-align: center;
-    font-weight: bold;
-    font-size: 60px;
-    padding-top: 100px;
-    color: #000000;
+    color: #297373;
 }
 
 /* Arrow */
