@@ -30,7 +30,7 @@ function App() {
             <Resources />
           </Route>
           <Route path="/login">
-            <Login />
+            <NotFound />
           </Route>
           <Route path="/404">
             <NotFound />
