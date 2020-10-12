@@ -9,7 +9,7 @@ const NavTop = () => {
             <Col className="top-nav-column" md={12} sm={12} xs={12}>
                 <Navbar.Brand className="mini-logo" href="/">
                     <img
-                        src={require("../../images/CelBlox_Logo_mini.png")}
+                        src={require("../../images/navImages/CelBlox_Logo_mini.png")}
                         width="30"
                         height="30"
                         className="top-nav-icon d-inline-block align-top"

@@ -11,7 +11,7 @@ const LoginCard = () => {
                 <Col md={3}></Col>
                 <Col md={6}>
                     <Card className="login-card">
-                        <Card.Img variant="top" className="pt-5" src={require("../../images/loginCard.svg")} />
+                        <Card.Img variant="top" className="pt-5" src={require("../../images/loginPage/loginCard.svg")} />
                         <Card.Body>
                             <Card.Text>
                                 <p className="login-text">

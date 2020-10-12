@@ -14,7 +14,7 @@ const ServiceCards = () => {
                 <Col lg={1} md={12}></Col>
                     <Col lg={4} md={12}>
                     <Card className="services-card">
-                        <Card.Img variant="top" className="pt-0" src={require("../../images/splashResourceCard.svg")} />
+                        <Card.Img variant="top" className="pt-0" src={require("../../images/homePage/splashResourceCard.svg")} />
                         <Card.Body>
                             <Card.Text>
                                     <p className="services-text">
@@ -32,7 +32,7 @@ const ServiceCards = () => {
                     <Col lg={2} md={12}></Col>
                     <Col lg={4} md={12}>
                     <Card className="services-card">
-                        <Card.Img variant="top" className="pt-5 pb-5" src={require("../../images/splashProductCard.svg")} />
+                        <Card.Img variant="top" className="pt-5 pb-5" src={require("../../images/homePage/splashProductCard.svg")} />
                         <Card.Body>
                             <Card.Text>
                                     <p className="services-text pt-4">

@@ -12,7 +12,7 @@ const InfoCards = () => {
                 <CardDeck className="info-deck">
                     <Col lg={4} md={12}>
                         <Card className="info-card">
-                            <Card.Img variant="top" className="pt-5" src={require("../../images/splashContractorCard.svg")} />
+                            <Card.Img variant="top" className="pt-5" src={require("../../images/homePage/splashContractorCard.svg")} />
                             <Card.Body>
                                 <Card.Title className="info-title">For Your Business</Card.Title>
                                 <Card.Text>
@@ -32,7 +32,7 @@ const InfoCards = () => {
                     </Col>
                     <Col lg={4} md={12}>
                         <Card className="info-card">
-                            <Card.Img variant="top" className="pt-2" src={require("../../images/splashCustomerCard1.svg")} />
+                            <Card.Img variant="top" className="pt-2" src={require("../../images/homePage/splashCustomerCard1.svg")} />
                             <Card.Body>
                                 <Card.Title className="info-title">For Your World</Card.Title>
                                 <Card.Text>
@@ -52,7 +52,7 @@ const InfoCards = () => {
                     </Col>
                     <Col lg={4} md={12}>
                         <Card className="info-card">
-                            <Card.Img variant="top" className="pt-2" src={require("../../images/splashCustomerCard2.svg")} />
+                            <Card.Img variant="top" className="pt-2" src={require("../../images/homePage/splashCustomerCard2.svg")} />
                             <Card.Body className="pt-3">
                                 <Card.Title className="info-title">For Your Home</Card.Title>
                                 <Card.Text>

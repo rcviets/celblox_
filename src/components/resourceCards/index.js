@@ -10,7 +10,7 @@ const ResourceCards = () => {
         <Container className="resource-card-container">
             <CardColumns>
                 <Card>
-                    <Card.Img variant="top" src={require("../../images/resourceCard1.svg")} />
+                    <Card.Img variant="top" src={require("../../images/resourcePage/resourceCard1.svg")} />
                     <Card.Body>
                         <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
                         <Card.Text className="resource-card-info">
@@ -23,7 +23,7 @@ const ResourceCards = () => {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src={require("../../images/resourceCard2.svg")} />
+                    <Card.Img variant="top" src={require("../../images/resourcePage/resourceCard2.svg")} />
                     <Card.Body>
                         <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
                         <Card.Text className="resource-card-info">
@@ -36,7 +36,7 @@ const ResourceCards = () => {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src={require("../../images/resourceCard3.svg")} />
+                    <Card.Img variant="top" src={require("../../images/resourcePage/resourceCard3.svg")} />
                     <Card.Body>
                         <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
                         <Card.Text className="resource-card-info">
@@ -49,7 +49,7 @@ const ResourceCards = () => {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src={require("../../images/resourceCard4.svg")} />
+                    <Card.Img variant="top" src={require("../../images/resourcePage/resourceCard4.svg")} />
                     <Card.Body>
                         <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
                         <Card.Text className="resource-card-info">
@@ -62,7 +62,7 @@ const ResourceCards = () => {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src={require("../../images/resourceCard5.svg")} />
+                    <Card.Img variant="top" src={require("../../images/resourcePage/resourceCard5.svg")} />
                     <Card.Body>
                         <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
                         <Card.Text className="resource-card-info">
@@ -75,7 +75,7 @@ const ResourceCards = () => {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src={require("../../images/resourceCard6.svg")} />
+                    <Card.Img variant="top" src={require("../../images/resourcePage/resourceCard6.svg")} />
                     <Card.Body>
                         <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
                         <Card.Text className="resource-card-info">
@@ -88,7 +88,7 @@ const ResourceCards = () => {
                     </Card.Body>
                 </Card>
                 <Card>
-                    <Card.Img variant="top" src={require("../../images/resourceCard7.svg")} />
+                    <Card.Img variant="top" src={require("../../images/resourcePage/resourceCard7.svg")} />
                     <Card.Body>
                         <Card.Title className="resource-card-title">Spec Sheet</Card.Title>
                         <Card.Text className="resource-card-info">
