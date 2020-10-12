@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/celblox_/static/css/main.6b525d01.chunk.css",
-    "main.js": "/celblox_/static/js/main.bed4abd9.chunk.js",
-    "main.js.map": "/celblox_/static/js/main.bed4abd9.chunk.js.map",
+    "main.css": "/celblox_/static/css/main.d498a806.chunk.css",
+    "main.js": "/celblox_/static/js/main.d8e0946c.chunk.js",
+    "main.js.map": "/celblox_/static/js/main.d8e0946c.chunk.js.map",
     "runtime-main.js": "/celblox_/static/js/runtime-main.eed86bcd.js",
     "runtime-main.js.map": "/celblox_/static/js/runtime-main.eed86bcd.js.map",
     "static/css/2.11829350.chunk.css": "/celblox_/static/css/2.11829350.chunk.css",
-    "static/js/2.40094b50.chunk.js": "/celblox_/static/js/2.40094b50.chunk.js",
-    "static/js/2.40094b50.chunk.js.map": "/celblox_/static/js/2.40094b50.chunk.js.map",
+    "static/js/2.e182cf45.chunk.js": "/celblox_/static/js/2.e182cf45.chunk.js",
+    "static/js/2.e182cf45.chunk.js.map": "/celblox_/static/js/2.e182cf45.chunk.js.map",
     "index.html": "/celblox_/index.html",
-    "precache-manifest.d3e238fa15f63215a182c0f3138e7ffe.js": "/celblox_/precache-manifest.d3e238fa15f63215a182c0f3138e7ffe.js",
+    "precache-manifest.14045ed740b5f71fa508c19f00829374.js": "/celblox_/precache-manifest.14045ed740b5f71fa508c19f00829374.js",
     "service-worker.js": "/celblox_/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/celblox_/static/css/2.11829350.chunk.css.map",
-    "static/css/main.6b525d01.chunk.css.map": "/celblox_/static/css/main.6b525d01.chunk.css.map",
-    "static/js/2.40094b50.chunk.js.LICENSE.txt": "/celblox_/static/js/2.40094b50.chunk.js.LICENSE.txt",
+    "static/css/main.d498a806.chunk.css.map": "/celblox_/static/css/main.d498a806.chunk.css.map",
+    "static/js/2.e182cf45.chunk.js.LICENSE.txt": "/celblox_/static/js/2.e182cf45.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/celblox_/static/media/splashHero.cf74a475.png",
     "static/media/CelBlox_Logo.png": "/celblox_/static/media/CelBlox_Logo.0e31e2b8.png",
     "static/media/CelBlox_Logo_mini.png": "/celblox_/static/media/CelBlox_Logo_mini.3bd847d7.png",
     "static/media/App.css": "/celblox_/static/media/heroSmall.990824ef.png",
     "static/media/loginCard.svg": "/celblox_/static/media/loginCard.7a6f41f6.svg",
-    "static/media/style.css": "/celblox_/static/media/splashHero.cf74a475.png",
     "static/media/render45Corner.png": "/celblox_/static/media/render45Corner.bcd7d503.png",
     "static/media/render90Corner.png": "/celblox_/static/media/render90Corner.f4698f3e.png",
     "static/media/renderLedge.png": "/celblox_/static/media/renderLedge.b6d7944d.png",
@@ -40,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.eed86bcd.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.40094b50.chunk.js",
-    "static/css/main.6b525d01.chunk.css",
-    "static/js/main.bed4abd9.chunk.js"
+    "static/js/2.e182cf45.chunk.js",
+    "static/css/main.d498a806.chunk.css",
+    "static/js/main.d8e0946c.chunk.js"
   ]
 }
