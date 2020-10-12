@@ -1,0 +1,14 @@
+.notfound-hero {
+    background-image: url(../../images/404.svg);
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat repeat;
+}
+
+.notfound-header {
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    color: #451F55;
+
+}
