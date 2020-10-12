@@ -8,26 +8,28 @@ const ContactForm = () => {
     return (
         <Form>
             <Form.Row>
+                <Form.Group as={Col} controlId="formGridName">
+                    <Form.Label>Company Name</Form.Label>
+                    <Form.Control type="name" placeholder="Company Name" />
+                </Form.Group>
+
+                <Form.Group as={Col} controlId="formGridName">
+                    <Form.Label>Contact Name</Form.Label>
+                    <Form.Control type="name" placeholder="Name" />
+                </Form.Group>
+            </Form.Row>
+
+            <Form.Row>
                 <Form.Group as={Col} controlId="formGridEmail">
                     <Form.Label>Email</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" />
                 </Form.Group>
 
-                <Form.Group as={Col} controlId="formGridPassword">
-                    <Form.Label>Password</Form.Label>
-                    <Form.Control type="password" placeholder="Password" />
+                <Form.Group as={Col} controlId="formGridNumber">
+                    <Form.Label>Phone Number</Form.Label>
+                    <Form.Control type="number" placeholder="(123) 456-7890" />
                 </Form.Group>
             </Form.Row>
-
-            <Form.Group controlId="formGridAddress1">
-                <Form.Label>Address</Form.Label>
-                <Form.Control placeholder="1234 Main St" />
-            </Form.Group>
-
-            <Form.Group controlId="formGridAddress2">
-                <Form.Label>Address 2</Form.Label>
-                <Form.Control placeholder="Apartment, studio, or floor" />
-            </Form.Group>
 
             <Form.Row>
                 <Form.Group as={Col} controlId="formGridCity">
