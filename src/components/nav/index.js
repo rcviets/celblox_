@@ -27,17 +27,21 @@ const Navigation = () => {
           <Nav>
           <Nav>
           <Nav.Link style={{ color: "#451F55" }} className="phone-number" href="https://www.google.com/maps/place/CelBlox/@43.5229283,-89.9883583,15z/data=!4m2!3m1!1s0x0:0xd90cdce3f617b66d?sa=X&ved=2ahUKEwjLnJCmmKTsAhXBGDQIHYxoDyIQ_BIwDHoECBQQBQ" target="_blank">
-            +1 (608) 616-2015</Nav.Link>
+            +1 (608) 616-2015
+          </Nav.Link>
           </Nav>
-            <Nav.Link style={{ color: "#451F55" }} className="nav-links" href="https://rcviets.github.io/celblox_/#/login">
-              Log In
-            </Nav.Link>
             <Nav.Link eventKey={2} style={{ color: "#451F55" }} className="nav-links" href="https://rcviets.github.io/celblox_/#/products">
               Products
           </Nav.Link>
             <Nav.Link eventKey={2} style={{ color: "#451F55" }} className="nav-links" href="https://rcviets.github.io/celblox_/#/resources">
               Resources
           </Nav.Link>
+          <Nav.Link style={{ color: "#451F55" }} className="nav-links" href="https://rcviets.github.io/celblox_/#/login">
+              Partners
+            </Nav.Link>
+            <Nav.Link style={{ color: "#451F55" }} className="nav-links" href="https://rcviets.github.io/celblox_/#/contact">
+              Contact Us
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
