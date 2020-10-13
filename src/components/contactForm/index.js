@@ -6,37 +6,51 @@ import Button from "react-bootstrap/Button";
 import "./style.css";
 
 class ContactForm extends Component {
-    state = {
-        companyName: "",
-        contactName: "",
-        email: "",
-        number: "",
-        city: "",
-        state: "",
-        zip: "",
-        message: "",
-        distributor: false,
-        installer: false,
-        redirectTo: null
+    constructor(props) {
+        this.state = {
+            companyName: "",
+            contactName: "",
+            email: "",
+            number: "",
+            city: "",
+            state: "",
+            zip: "",
+            message: "",
+            distributor: false,
+            installer: false
+        };
     };
 
-    handleFormSubmit = event => {
-        event.preventDefault();
+    handleFormSubmit(e){
+        e.preventDefault();
+        axios({
+            method: "POST",
+            url: "http://localhost:3000/contact",
+            data: this.state
+        }).then((response) => {
+            if (response.data.status === "success") {
+                alert("Message Sent");
+                this.resetForm()
+            } else if (response.data.status === "fail") {
+                alert("Message Not Sent");
+            };
+        });
+    };
 
-        const contactData = {
-            companyName: this.state.companyName,
-            contactName: this.state.contactName,
-            email: this.state.email,
-            number: this.state.number,
-            city: this.state.city,
-            state: this.state.state,
-            zip: this.state.zip,
-            message: this.state.message,
-            distributor: this.state.distributor,
-            installer: this.state.installer,
-
-        }
-    }
+    resetForm() {
+        this.state({
+            companyName: "",
+            contactName: "",
+            email: "",
+            number: "",
+            city: "",
+            state: "",
+            zip: "",
+            message: "",
+            distributor: false,
+            installer: false
+        });
+    };
 
 
 
