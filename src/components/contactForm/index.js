@@ -43,6 +43,25 @@ class ContactForm extends Component {
                 alert("Message Not Sent");
             };
         });
+
+        this.setState({
+            companyName: "",
+            contactName: "",
+            email: "",
+            number: "",
+            zip: "",
+            message: "",
+            distributor: "",
+            installer: ""
+        });
+    };
+
+    handleInputChange = e => {
+        let name = e.target.name;
+
+        this.setState({
+            [name]: e.target.value
+        });
     };
 
     resetForm() {
@@ -81,6 +100,7 @@ class ContactForm extends Component {
                                         </div>
                                         <div className="form-group contact-name">
                                             <input
+                                                onChange={this.handleInputChange}
                                                 type="name"
                                                 name="contactName"
                                                 className="form-control"
@@ -90,6 +110,7 @@ class ContactForm extends Component {
                                         </div>
                                         <div className="form-group contact-email">
                                             <input
+                                                onChange={this.handleInputChange}
                                                 type="email"
                                                 name="email"
                                                 class="form-control"
@@ -99,6 +120,7 @@ class ContactForm extends Component {
                                         </div>
                                         <div className="form-group contact-number">
                                             <input
+                                                onChange={this.handleInputChange}
                                                 name="number"
                                                 type="number"
                                                 class="form-control"
@@ -109,6 +131,7 @@ class ContactForm extends Component {
                                         <div className="form-group contact-zip">
                                             <label for="zip">Zip Code</label>
                                             <input
+                                                onChange={this.handleInputChange}
                                                 name="zip"
                                                 type="number"
                                                 class="form-control"
@@ -117,6 +140,7 @@ class ContactForm extends Component {
                                         </div>
                                         <div className="form-group contact-message">
                                         <textarea
+                                            onChange={this.handleInputChange}
                                             name="message"
                                             class="form-control"
                                             id="contactMessage"
