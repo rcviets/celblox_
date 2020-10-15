@@ -149,6 +149,7 @@ class ContactForm extends Component {
                                         />
                                         </div>
                                         <button
+                                            onClick={this.handleFormSubmit}
                                             className="btn btn-primary submit-button"
                                             type="submit"
                                             value="Submit">Submit
