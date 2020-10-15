@@ -6,9 +6,7 @@ import Button from "react-bootstrap/Button";
 import "./style.css";
 
 class ContactForm extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
+        state = {
             companyName: "",
             contactName: "",
             email: "",
@@ -18,10 +16,21 @@ class ContactForm extends Component {
             distributor: false,
             installer: false
         };
-    };
 
-    handleFormSubmit(e){
+    handleFormSubmit(e) {
         e.preventDefault();
+
+        const contactData = {
+            companyName: this.state.companyName,
+            contactName: this.state.contactName,
+            email: this.state.email,
+            number: this.state.number,
+            zip: this.state.zip,
+            message: this.state.message,
+            distributor: this.state.distributor,
+            installer: this.state.installer
+        };
+
         axios({
             method: "POST",
             url: "http://localhost:3000/contact",
@@ -50,6 +59,7 @@ class ContactForm extends Component {
     };
 
     render() {
+        console.log("state:", this.state.companyName);
          return (
             <>
                 <div class="fluid-container contact-form-container">
@@ -61,6 +71,7 @@ class ContactForm extends Component {
                                     <form>
                                         <div className="form-group company-name">
                                             <input
+                                                onChange={this.handleInputChange}
                                                 type="name"
                                                 name="companyName"
                                                 class="form-control"
