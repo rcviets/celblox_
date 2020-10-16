@@ -14,9 +14,9 @@ class ContactForm extends Component {
             email: "",
             number: "",
             zip: "",
-            message: "",
-            distributor: false,
-            installer: false
+            message: ""
+            /*distributor: false,
+            installer: false*/
         };
     }
 
@@ -39,7 +39,7 @@ class ContactForm extends Component {
         console.log("state:", this.state.companyName);
          return (
             <>
-                <div class="fluid-container contact-form-container">
+                <div className="fluid-container contact-form-container">
                     <div className="row">
                         <div className="col-12">
                             <div className="card contact-form-card mx-auto">
@@ -48,59 +48,52 @@ class ContactForm extends Component {
                                     <form>
                                         <div className="form-group company-name">
                                             <input
-                                                onChange={this.handleInputChange}
                                                 type="name"
                                                 name="companyName"
-                                                class="form-control"
+                                                className="form-control"
                                                 id="companyName"
-                                                placeHolder="Company Name"
+                                                placeholder="Company Name"
                                             />
                                         </div>
                                         <div className="form-group contact-name">
                                             <input
-                                                onChange={this.handleInputChange}
                                                 type="name"
                                                 name="contactName"
                                                 className="form-control"
                                                 id="contactName"
-                                                placeHolder="Contact Name"
+                                                placeholder="Contact Name"
                                             />
                                         </div>
                                         <div className="form-group contact-email">
                                             <input
-                                                onChange={this.handleInputChange}
                                                 type="email"
                                                 name="email"
-                                                class="form-control"
+                                                className="form-control"
                                                 id="contactEmail"
-                                                placeHolder="johnDoe@company.com"
+                                                placeholder="johnDoe@company.com"
                                             />
                                         </div>
                                         <div className="form-group contact-number">
                                             <input
-                                                onChange={this.handleInputChange}
                                                 name="number"
                                                 type="number"
-                                                class="form-control"
+                                                className="form-control"
                                                 id="contactNumber"
                                                 placeholder="(123) 456-7890"
                                             />
                                         </div>
                                         <div className="form-group contact-zip">
-                                            <label for="zip">Zip Code</label>
                                             <input
-                                                onChange={this.handleInputChange}
                                                 name="zip"
                                                 type="number"
-                                                class="form-control"
+                                                className="form-control"
                                                 id="contactZip"
                                             />
                                         </div>
                                         <div className="form-group contact-message">
                                         <textarea
-                                            onChange={this.handleInputChange}
                                             name="message"
-                                            class="form-control"
+                                            className="form-control"
                                             id="contactMessage"
                                             rows="3"
                                             placeholder="Enter Message"
@@ -120,6 +113,26 @@ class ContactForm extends Component {
                 </div>
             </>
         );
+    };
+
+    /*Will condense later; just work first plzzzz */
+    onCompanyNameChange(event) {
+        this.setState({companyName: event.target.value});
+    };
+    onContactNameChange(event) {
+        this.setState({contactName: event.target.value});
+    };
+    onEmailChange(event) {
+        this.setState({email: event.target.value});
+    };
+    onNumberChange(event) {
+        this.setState({number: event.target.value});
+    };
+    onZipChange(event) {
+        this.setState({zip: event.target.value});
+    };
+    onMessageChange(event) {
+        this.setState({message: event.target.value});
     };
 };
 
