@@ -6,7 +6,9 @@ import Button from "react-bootstrap/Button";
 import "./style.css";
 
 class ContactForm extends Component {
-        state = {
+    constructor(props) {
+        super(props)
+        this.state = {
             companyName: "",
             contactName: "",
             email: "",
@@ -16,21 +18,10 @@ class ContactForm extends Component {
             distributor: false,
             installer: false
         };
+    }
 
     handleFormSubmit(e) {
         e.preventDefault();
-
-        const contactData = {
-            companyName: this.state.companyName,
-            contactName: this.state.contactName,
-            email: this.state.email,
-            number: this.state.number,
-            zip: this.state.zip,
-            message: this.state.message,
-            distributor: this.state.distributor,
-            installer: this.state.installer
-        };
-
         axios({
             method: "POST",
             url: "http://localhost:3000/contact",
@@ -38,42 +29,9 @@ class ContactForm extends Component {
         }).then((response) => {
             if (response.data.status === "success") {
                 alert("Message Sent");
-                this.resetForm()
             } else if (response.data.status === "fail") {
                 alert("Message Not Sent");
             };
-        });
-
-        this.setState({
-            companyName: "",
-            contactName: "",
-            email: "",
-            number: "",
-            zip: "",
-            message: "",
-            distributor: "",
-            installer: ""
-        });
-    };
-
-    handleInputChange = e => {
-        let name = e.target.name;
-
-        this.setState({
-            [name]: e.target.value
-        });
-    };
-
-    resetForm() {
-        this.state({
-            companyName: "",
-            contactName: "",
-            email: "",
-            number: "",
-            zip: "",
-            message: "",
-            distributor: false,
-            installer: false
         });
     };
 
